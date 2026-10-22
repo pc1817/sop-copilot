@@ -1,18 +1,18 @@
-﻿from pathlib import Path
+﻿import sys
+from pathlib import Path
+
 from src.parse import parse_all
 from src.clean import clean_pages
-from src.chunk import chunk_pages, MAX_CHARS
+from src.chunk import chunk_pages
+from src.embed import load_env, embed_texts, embed_text_for, MODEL, DIM
 
+load_env()
 pages = parse_all(Path("docs"))
 kept, dropped = clean_pages(pages)
 chunks = chunk_pages(kept)
+print(f"parsed {len(pages)} | kept {len(kept)} | dropped {len(dropped)} | chunks {len(chunks)}")
 
-print("parsed:", len(pages), "kept:", len(kept), "dropped:", len(dropped))
-sizes = [len(c["text"]) for c in chunks]
-print("chunks:", len(chunks), "| avg chars:", sum(sizes) // len(sizes),
-      "| min:", min(sizes), "| max:", max(sizes), "| over soft max:", sum(s > MAX_CHARS for s in sizes))
-ids = [c["id"] for c in chunks]
-print("unique ids:", len(set(ids)) == len(ids))
-for c in chunks[:2] + chunks[len(chunks) // 2:len(chunks) // 2 + 1]:
-    print("---", c["id"], "|", c["heading_path"])
-    print(c["text"][:200].replace("\n", " "))
+limit = int(sys.argv[1]) if len(sys.argv) > 1 else len(chunks)
+vecs = embed_texts([embed_text_for(c) for c in chunks[:limit]])
+print(f"embedded {len(vecs)} chunks with {MODEL}, dim={len(vecs[0])} (expected {DIM})")
+print("norm of first vector:", round(sum(x * x for x in vecs[0]) ** 0.5, 4))

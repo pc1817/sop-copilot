@@ -8,6 +8,7 @@ HTML_TAG = re.compile(r"</?[a-zA-Z][^>]*>")
 IMAGE = re.compile(r"!\[[^\]]*\]\([^)]*\)")
 LINK = re.compile(r"\[([^\]]+)\]\([^)]*\)")
 BLANKS = re.compile(r"\n{3,}")
+ATTR = re.compile(r"[ \t]*\{[.#][^}\n]*\}")
 
 MIN_CHARS = 400  # pages shorter than this are mostly link lists
 
@@ -19,6 +20,7 @@ def clean_text(body: str) -> str:
     t = LINK.sub(r"\1", t)
     t = AUTOLINK.sub(r"\1", t)   # keep emails/URLs such as ar@gitlab.com
     t = HTML_TAG.sub("", t)
+    t = ATTR.sub("", t)
     t = "\n".join(line.rstrip() for line in t.splitlines())
     return BLANKS.sub("\n\n", t).strip()
 
@@ -32,3 +34,4 @@ def clean_pages(pages: list[dict]):
         else:
             kept.append({**p, "text": text})
     return kept, dropped
+
