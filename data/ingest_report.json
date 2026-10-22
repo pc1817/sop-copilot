@@ -1,0 +1,33 @@
+{
+  "corpus_commit": "1d017e2417c7510ed270a22e03f038e968fdb679",
+  "pages_parsed": 66,
+  "pages_kept": 49,
+  "pages_dropped": 17,
+  "dropped_paths": [
+    "accounting/finance-ops/_index.md",
+    "accounting/finance-ops/teck-stack-guide-netsuite.md",
+    "authorization-matrix.md",
+    "finance-team-performance-indicators.md",
+    "financial-planning-and-analysis/fpa-definitions.md",
+    "financial-planning-and-analysis/fpa-metrics.md",
+    "financial-planning-and-analysis/fpa-processes.md",
+    "financial-planning-and-analysis/ga-finance.md",
+    "financial-planning-and-analysis/gtm-analytics-hub.md",
+    "financial-planning-and-analysis/team-structure.md",
+    "internal-audit/_index.md",
+    "internal-audit/sarbanes-oxley.md",
+    "payroll.md",
+    "procurement/office-equipment-supplies.md",
+    "procurement/virtual-cards.md",
+    "sales-comp-plan.md",
+    "timekeeping/_index.md"
+  ],
+  "chunks": 753,
+  "embedded": 753,
+  "upserted": 753,
+  "embedding_model": "gemini-embedding-001",
+  "dimensions": 768,
+  "index": "sop-copilot",
+  "namespace": "__default__",
+  "search": "pinecone document index: BM25 (search_text) + dense (embedding)"
+}
