@@ -43,10 +43,16 @@ def rrf(result_lists: list[list[dict]], k_const: int = 60, top_k: int = 5) -> li
 
 
 def retrieve(index, question: str, mode: str = "hybrid", top_k: int = 5) -> list[dict]:
-    if mode == "dense":
-        return search_dense(index, question, top_k)
-    if mode == "bm25":
-        return search_bm25(index, question, top_k)
-    if mode == "hybrid":
-        return rrf([search_dense(index, question, 20), search_bm25(index, question, 20)], top_k=top_k)
-    raise ValueError(f"unknown mode: {mode}")
+    return retrieve_all(index, question, top_k)[mode]
+
+
+def retrieve_all(index, question: str, top_k: int = 5) -> dict:
+    """One dense + one BM25 search, reused for all three modes."""
+    dense = search_dense(index, question, 20)
+    bm25 = search_bm25(index, question, 20)
+    return {
+        "dense": dense[:top_k],
+        "bm25": bm25[:top_k],
+        "hybrid": rrf([dense, bm25], top_k=top_k),
+        "dense_top": dense[0]["score"] if dense else 0.0,
+    }
