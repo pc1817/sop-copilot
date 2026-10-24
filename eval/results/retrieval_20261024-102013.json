@@ -1,0 +1,3640 @@
+{
+  "threshold": 0.665,
+  "rows": [
+    {
+      "id": "q01",
+      "type": "in_scope",
+      "own": false,
+      "q": "Do I need a receipt for a $30 expense if I work from the US?",
+      "dense_top": 0.7100234,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "accounts-payable__corp-credit-cards.md__001",
+          "heading": "Navan Purchasing Card > 2. General Guidelines",
+          "score": 18.075954
+        },
+        {
+          "id": "expenses.md__029",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > Traveling: Team Events and Meals",
+          "score": 14.918272
+        },
+        {
+          "id": "expenses.md__028",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > Meals: Company Provided while Traveling",
+          "score": 14.3081255
+        },
+        {
+          "id": "accounting___index.md__040",
+          "heading": "Accounting and Reporting > Expenses > Travel and Expense Guidelines > Spend reduction",
+          "score": 13.654197
+        },
+        {
+          "id": "expenses.md__072",
+          "heading": "Global Travel and Expense Policy > Approved Office Supplies List > 4.3 Missing Receipt Affidavit",
+          "score": 13.3948345
+        }
+      ],
+      "bm25_rank": null,
+      "dense": [
+        {
+          "id": "expenses.md__005",
+          "heading": "Global Travel and Expense Policy > 3. General Guidelines",
+          "score": 0.7100234
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__001",
+          "heading": "Navan Purchasing Card > 2. General Guidelines",
+          "score": 0.6936367
+        },
+        {
+          "id": "expenses.md__028",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > Meals: Company Provided while Traveling",
+          "score": 0.68258965
+        },
+        {
+          "id": "expenses.md__061",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Office Supplies & consumables",
+          "score": 0.6807759
+        },
+        {
+          "id": "expenses.md__029",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > Traveling: Team Events and Meals",
+          "score": 0.6738036
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "accounts-payable__corp-credit-cards.md__001",
+          "heading": "Navan Purchasing Card > 2. General Guidelines",
+          "score": 0.03252247488101534
+        },
+        {
+          "id": "expenses.md__028",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > Meals: Company Provided while Traveling",
+          "score": 0.031746031746031744
+        },
+        {
+          "id": "expenses.md__029",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > Traveling: Team Events and Meals",
+          "score": 0.0315136476426799
+        },
+        {
+          "id": "expenses.md__005",
+          "heading": "Global Travel and Expense Policy > 3. General Guidelines",
+          "score": 0.03131881575727918
+        },
+        {
+          "id": "expenses.md__072",
+          "heading": "Global Travel and Expense Policy > Approved Office Supplies List > 4.3 Missing Receipt Affidavit",
+          "score": 0.029877369007803793
+        }
+      ],
+      "hybrid_rank": 4
+    },
+    {
+      "id": "q02",
+      "type": "in_scope",
+      "own": false,
+      "q": "I've left the company but still have an unpaid expense. How do I get reimbursed?",
+      "dense_top": 0.744287,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "expenses.md__058",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Laptops, insurance and repairs > Repairs to company issued equipment",
+          "score": 13.76029
+        },
+        {
+          "id": "expenses.md__005",
+          "heading": "Global Travel and Expense Policy > 3. General Guidelines",
+          "score": 13.476905
+        },
+        {
+          "id": "procurement__coupa-faq.md__010",
+          "heading": "Coupa FAQ > CSP/SAN FAQ > If the supplier already have a Coupa Supplier Portal account, what do they need to do to enable GitLab?",
+          "score": 13.392086
+        },
+        {
+          "id": "expenses.md__055",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Internet",
+          "score": 13.329717
+        },
+        {
+          "id": "travel__sponsored.md__004",
+          "heading": "Sponsored Travel > Booking Sponsored Travel > Other Travel Recommendations and Policies",
+          "score": 13.246885
+        }
+      ],
+      "bm25_rank": null,
+      "dense": [
+        {
+          "id": "expenses.md__089",
+          "heading": "Global Travel and Expense Policy > 7. OTHER > Expense Reimbursement for Terminated Team Members",
+          "score": 0.744287
+        },
+        {
+          "id": "expenses.md__076",
+          "heading": "Global Travel and Expense Policy > Approved Office Supplies List > Legal entities > PEO (Professional Employer Organization/ Employer of Record and not a GitLab entity or Branch)",
+          "score": 0.66893023
+        },
+        {
+          "id": "expenses.md__073",
+          "heading": "Global Travel and Expense Policy > Approved Office Supplies List > 4.4 Reimbursement Payout Timelines",
+          "score": 0.6678879
+        },
+        {
+          "id": "expenses.md__008",
+          "heading": "Global Travel and Expense Policy > 3. General Guidelines > 3.1 Out of Policy Transactions",
+          "score": 0.66551876
+        },
+        {
+          "id": "accounting___index.md__027",
+          "heading": "Accounting and Reporting > Procure to Pay > Payment Process",
+          "score": 0.65488595
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "expenses.md__089",
+          "heading": "Global Travel and Expense Policy > 7. OTHER > Expense Reimbursement for Terminated Team Members",
+          "score": 0.029906956136464335
+        },
+        {
+          "id": "spending-company-money.md__003",
+          "heading": "Spending Company Money > Ways to spend company money",
+          "score": 0.02919863597612958
+        },
+        {
+          "id": "spending-company-money.md__001",
+          "heading": "Spending Company Money > Guidelines",
+          "score": 0.02900988017658188
+        },
+        {
+          "id": "accounting___index.md__037",
+          "heading": "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Paying Navan Reports",
+          "score": 0.02857142857142857
+        },
+        {
+          "id": "expenses.md__058",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Laptops, insurance and repairs > Repairs to company issued equipment",
+          "score": 0.01639344262295082
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q03",
+      "type": "in_scope",
+      "own": false,
+      "q": "I lost a receipt. What can I do?",
+      "dense_top": 0.6798144,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "accounts-payable__corp-credit-cards.md__025",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES > 7.4 Card Lost or Stolen",
+          "score": 10.960756
+        },
+        {
+          "id": "jihu-support__jihu-validation-pipelines.md__002",
+          "heading": "JiHu validation pipelines > What to do when the validation pipeline failed",
+          "score": 9.036558
+        },
+        {
+          "id": "procurement__individual-use-software.md__002",
+          "heading": "Individual Use Software > What Happens When I Request Individual Use Software?",
+          "score": 8.79883
+        },
+        {
+          "id": "procurement__coupa-faq.md__010",
+          "heading": "Coupa FAQ > CSP/SAN FAQ > If the supplier already have a Coupa Supplier Portal account, what do they need to do to enable GitLab?",
+          "score": 8.703855
+        },
+        {
+          "id": "procurement__vendor-guidelines__mutual-non-disclosure-agreement.md__002",
+          "heading": "MUTUAL NON-DISCLOSURE AGREEMENT > 1. CONFIDENTIAL INFORMATION",
+          "score": 8.670607
+        }
+      ],
+      "bm25_rank": null,
+      "dense": [
+        {
+          "id": "expenses.md__072",
+          "heading": "Global Travel and Expense Policy > Approved Office Supplies List > 4.3 Missing Receipt Affidavit",
+          "score": 0.6798144
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__022",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES > 7.1 Card Holder Responsibility",
+          "score": 0.6671963
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__001",
+          "heading": "Navan Purchasing Card > 2. General Guidelines",
+          "score": 0.6303099
+        },
+        {
+          "id": "expenses.md__005",
+          "heading": "Global Travel and Expense Policy > 3. General Guidelines",
+          "score": 0.6092171
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__025",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES > 7.4 Card Lost or Stolen",
+          "score": 0.6065331
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "accounts-payable__corp-credit-cards.md__025",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES > 7.4 Card Lost or Stolen",
+          "score": 0.03177805800756621
+        },
+        {
+          "id": "expenses.md__005",
+          "heading": "Global Travel and Expense Policy > 3. General Guidelines",
+          "score": 0.029910714285714284
+        },
+        {
+          "id": "expenses.md__072",
+          "heading": "Global Travel and Expense Policy > Approved Office Supplies List > 4.3 Missing Receipt Affidavit",
+          "score": 0.029551337359792925
+        },
+        {
+          "id": "accounting__finance-ops__billing-ops___index.md__009",
+          "heading": "Billing Operations > How to get Help",
+          "score": 0.02668564312399929
+        },
+        {
+          "id": "expenses.md__029",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > Traveling: Team Events and Meals",
+          "score": 0.02548701298701299
+        }
+      ],
+      "hybrid_rank": 3
+    },
+    {
+      "id": "q04",
+      "type": "in_scope",
+      "own": false,
+      "q": "How long does it take to get my expense reimbursement paid out?",
+      "dense_top": 0.74041206,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "procurement__field-marketing-events.md__003",
+          "heading": "Field Marketing and Events > How Long Does it take to get my New Software Purchase Approved?",
+          "score": 21.19204
+        },
+        {
+          "id": "procurement__coupa-faq.md__006",
+          "heading": "Coupa FAQ > CSP/SAN FAQ > How long does it take to register for the CSP?",
+          "score": 18.929161
+        },
+        {
+          "id": "spending-company-money.md__001",
+          "heading": "Spending Company Money > Guidelines",
+          "score": 15.874556
+        },
+        {
+          "id": "accounts-payable___index.md__005",
+          "heading": "Accounts Payable > Accounts Payable Payments",
+          "score": 14.6126995
+        },
+        {
+          "id": "expenses.md__058",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Laptops, insurance and repairs > Repairs to company issued equipment",
+          "score": 13.012587
+        }
+      ],
+      "bm25_rank": null,
+      "dense": [
+        {
+          "id": "expenses.md__073",
+          "heading": "Global Travel and Expense Policy > Approved Office Supplies List > 4.4 Reimbursement Payout Timelines",
+          "score": 0.74041206
+        },
+        {
+          "id": "accounting___index.md__037",
+          "heading": "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Paying Navan Reports",
+          "score": 0.7150456
+        },
+        {
+          "id": "expenses.md__074",
+          "heading": "Global Travel and Expense Policy > Approved Office Supplies List > Legal entities",
+          "score": 0.7057003
+        },
+        {
+          "id": "expenses.md__076",
+          "heading": "Global Travel and Expense Policy > Approved Office Supplies List > Legal entities > PEO (Professional Employer Organization/ Employer of Record and not a GitLab entity or Branch)",
+          "score": 0.6981916
+        },
+        {
+          "id": "accounting___index.md__039",
+          "heading": "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Accounts Payable Analyst Performance Indicators - Expenses",
+          "score": 0.6845493
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "accounts-payable___index.md__005",
+          "heading": "Accounts Payable > Accounts Payable Payments",
+          "score": 0.030117753623188408
+        },
+        {
+          "id": "accounting___index.md__037",
+          "heading": "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Paying Navan Reports",
+          "score": 0.02964254577157803
+        },
+        {
+          "id": "spending-company-money.md__001",
+          "heading": "Spending Company Money > Guidelines",
+          "score": 0.029571646010002173
+        },
+        {
+          "id": "expenses.md__006",
+          "heading": "Global Travel and Expense Policy > 3. General Guidelines",
+          "score": 0.028404512489927477
+        },
+        {
+          "id": "accounting___index.md__039",
+          "heading": "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Accounts Payable Analyst Performance Indicators - Expenses",
+          "score": 0.02804284323271665
+        }
+      ],
+      "hybrid_rank": null
+    },
+    {
+      "id": "q05",
+      "type": "in_scope",
+      "own": false,
+      "q": "Can I expense a standing desk for working from home?",
+      "dense_top": 0.7102949,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "expenses.md__043",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Co-Working Space - Monthly",
+          "score": 21.346844
+        },
+        {
+          "id": "expenses.md__056",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Internet",
+          "score": 20.148571
+        },
+        {
+          "id": "expenses.md__046",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment",
+          "score": 12.197926
+        },
+        {
+          "id": "expenses.md__054",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Team Member Significant Life Events and Team Member Gifts",
+          "score": 10.543375
+        },
+        {
+          "id": "growth-and-development__cfo-shadow-program.md__002",
+          "heading": "CFO Shadow Program > Eligibility",
+          "score": 10.255119
+        }
+      ],
+      "bm25_rank": null,
+      "dense": [
+        {
+          "id": "expenses.md__047",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment",
+          "score": 0.7102949
+        },
+        {
+          "id": "expenses.md__051",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Furniture",
+          "score": 0.6960812
+        },
+        {
+          "id": "expenses.md__048",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment > New Hires- 1,500 USD (or equivalent local currency) Guidelines",
+          "score": 0.6937296
+        },
+        {
+          "id": "expenses.md__046",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment",
+          "score": 0.68613696
+        },
+        {
+          "id": "expenses.md__061",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Office Supplies & consumables",
+          "score": 0.6824597
+        }
+      ],
+      "dense_rank": 2,
+      "hybrid": [
+        {
+          "id": "expenses.md__046",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment",
+          "score": 0.03149801587301587
+        },
+        {
+          "id": "expenses.md__051",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Furniture",
+          "score": 0.030834914611005692
+        },
+        {
+          "id": "expenses.md__047",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment",
+          "score": 0.03047794966520434
+        },
+        {
+          "id": "expenses.md__048",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment > New Hires- 1,500 USD (or equivalent local currency) Guidelines",
+          "score": 0.03036576949620428
+        },
+        {
+          "id": "expenses.md__043",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Co-Working Space - Monthly",
+          "score": 0.03009207275993712
+        }
+      ],
+      "hybrid_rank": 2
+    },
+    {
+      "id": "q06",
+      "type": "in_scope",
+      "own": false,
+      "q": "My company purchasing card was stolen. Who do I tell?",
+      "dense_top": 0.7478091,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "accounts-payable__corp-credit-cards.md__025",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES > 7.4 Card Lost or Stolen",
+          "score": 25.515526
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__021",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES",
+          "score": 11.435957
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__016",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Software subscriptions",
+          "score": 11.058081
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__017",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Team member Gifts that are not for a Significant Life Event",
+          "score": 10.842831
+        },
+        {
+          "id": "travel__sponsored.md__004",
+          "heading": "Sponsored Travel > Booking Sponsored Travel > Other Travel Recommendations and Policies",
+          "score": 10.148256
+        }
+      ],
+      "bm25_rank": 1,
+      "dense": [
+        {
+          "id": "accounts-payable__corp-credit-cards.md__025",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES > 7.4 Card Lost or Stolen",
+          "score": 0.7478091
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__024",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES > 7.3 Credit Card Misuse",
+          "score": 0.67121994
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__026",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES > 7.5 Cancellation of Card",
+          "score": 0.65624106
+        },
+        {
+          "id": "accounting___index.md__043",
+          "heading": "Accounting and Reporting > Expenses > Corporate Credit Cards",
+          "score": 0.65592134
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__020",
+          "heading": "Navan Purchasing Card > 6. Manager Expectations",
+          "score": 0.6454151
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "accounts-payable__corp-credit-cards.md__025",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES > 7.4 Card Lost or Stolen",
+          "score": 0.03278688524590164
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__021",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES",
+          "score": 0.031054405392392875
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__026",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES > 7.5 Cancellation of Card",
+          "score": 0.030158730158730156
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__024",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES > 7.3 Credit Card Misuse",
+          "score": 0.02964254577157803
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__022",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES > 7.1 Card Holder Responsibility",
+          "score": 0.028484848484848488
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q07",
+      "type": "in_scope",
+      "own": false,
+      "q": "Can I buy gift cards with the purchasing card?",
+      "dense_top": 0.72449046,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "accounts-payable__corp-credit-cards.md__017",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Team member Gifts that are not for a Significant Life Event",
+          "score": 22.392248
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__010",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Internal Team Member event prizes/contests/awards",
+          "score": 18.710854
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__009",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Gift Card Purchases",
+          "score": 17.234066
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__026",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES > 7.5 Cancellation of Card",
+          "score": 16.37242
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__021",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES",
+          "score": 15.479641
+        }
+      ],
+      "bm25_rank": 3,
+      "dense": [
+        {
+          "id": "accounts-payable__corp-credit-cards.md__009",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Gift Card Purchases",
+          "score": 0.72449046
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__010",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Internal Team Member event prizes/contests/awards",
+          "score": 0.67242104
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__011",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Marketing Events - Prizes and Gifts for external customers",
+          "score": 0.6659892
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__002",
+          "heading": "Navan Purchasing Card > 3. Permissible Items",
+          "score": 0.6626941
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__017",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Team member Gifts that are not for a Significant Life Event",
+          "score": 0.66248786
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "accounts-payable__corp-credit-cards.md__009",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Gift Card Purchases",
+          "score": 0.032266458495966696
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__010",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Internal Team Member event prizes/contests/awards",
+          "score": 0.03225806451612903
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__017",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Team member Gifts that are not for a Significant Life Event",
+          "score": 0.03177805800756621
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__011",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Marketing Events - Prizes and Gifts for external customers",
+          "score": 0.031024531024531024
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__002",
+          "heading": "Navan Purchasing Card > 3. Permissible Items",
+          "score": 0.03055037313432836
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q08",
+      "type": "in_scope",
+      "own": false,
+      "q": "How do I kick off the procurement process for a new vendor?",
+      "dense_top": 0.7471727,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "procurement___index.md__013",
+          "heading": "The GitLab Procurement Team > The Procurement Process > How to start the Procurement Process",
+          "score": 14.628311
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__040",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Role Approval and Release Process > Planned Positions",
+          "score": 13.924732
+        },
+        {
+          "id": "procurement__field-marketing-events.md__000",
+          "heading": "Field Marketing and Events > Important to Know",
+          "score": 13.578663
+        },
+        {
+          "id": "procurement___index.md__004",
+          "heading": "The GitLab Procurement Team > What is Procurement? > Vendor Lifecycle Management > 1. RFP and Vendor Selection",
+          "score": 13.470292
+        },
+        {
+          "id": "procurement__vendor-guidelines__vendor-agreement.md__014",
+          "heading": "Vendor Terms and Conditions > STANDARD VENDOR TERMS AND CONDITIONS > 9. INTELLECTUAL PROPERTY",
+          "score": 13.104086
+        }
+      ],
+      "bm25_rank": 1,
+      "dense": [
+        {
+          "id": "procurement___index.md__004",
+          "heading": "The GitLab Procurement Team > What is Procurement? > Vendor Lifecycle Management > 1. RFP and Vendor Selection",
+          "score": 0.7471727
+        },
+        {
+          "id": "procurement___index.md__013",
+          "heading": "The GitLab Procurement Team > The Procurement Process > How to start the Procurement Process",
+          "score": 0.7420575
+        },
+        {
+          "id": "procurement___index.md__012",
+          "heading": "The GitLab Procurement Team > The Procurement Process",
+          "score": 0.7240569
+        },
+        {
+          "id": "procurement__field-marketing-events.md__000",
+          "heading": "Field Marketing and Events > Important to Know",
+          "score": 0.71952415
+        },
+        {
+          "id": "procurement__field-marketing-events.md__001",
+          "heading": "Field Marketing and Events > How Do I Submit a Request for a Contract and PO?",
+          "score": 0.69528586
+        }
+      ],
+      "dense_rank": 2,
+      "hybrid": [
+        {
+          "id": "procurement___index.md__013",
+          "heading": "The GitLab Procurement Team > The Procurement Process > How to start the Procurement Process",
+          "score": 0.03252247488101534
+        },
+        {
+          "id": "procurement___index.md__004",
+          "heading": "The GitLab Procurement Team > What is Procurement? > Vendor Lifecycle Management > 1. RFP and Vendor Selection",
+          "score": 0.032018442622950824
+        },
+        {
+          "id": "procurement__field-marketing-events.md__000",
+          "heading": "Field Marketing and Events > Important to Know",
+          "score": 0.03149801587301587
+        },
+        {
+          "id": "procurement__field-marketing-events.md__001",
+          "heading": "Field Marketing and Events > How Do I Submit a Request for a Contract and PO?",
+          "score": 0.02946912242686891
+        },
+        {
+          "id": "procurement___index.md__009",
+          "heading": "The GitLab Procurement Team > What is Procurement? > Vendor Lifecycle Management > 5. Recurring Vendor Reviews and Management > Vendor Renewals",
+          "score": 0.028594771241830064
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q09",
+      "type": "in_scope",
+      "own": false,
+      "q": "When does a vendor need a financial viability check?",
+      "dense_top": 0.80187523,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "procurement___index.md__035",
+          "heading": "The GitLab Procurement Team > Third Party Risk Management > When do we require a financial viability check?",
+          "score": 17.931921
+        },
+        {
+          "id": "expenses.md__058",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Laptops, insurance and repairs > Repairs to company issued equipment",
+          "score": 11.255452
+        },
+        {
+          "id": "procurement___index.md__034",
+          "heading": "The GitLab Procurement Team > Third Party Risk Management",
+          "score": 10.2626
+        },
+        {
+          "id": "procurement__individual-use-software.md__001",
+          "heading": "Individual Use Software > I Need Individual Use Software- Where Do I Start?",
+          "score": 9.940992
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__018",
+          "heading": "Financial Planning & Analysis > Quarterly & Monthly Cycle (incl. close, variance, forecast, guidance) > Key Definitions > Forecast at `FYyyyy-mm`",
+          "score": 8.696915
+        }
+      ],
+      "bm25_rank": 1,
+      "dense": [
+        {
+          "id": "procurement___index.md__035",
+          "heading": "The GitLab Procurement Team > Third Party Risk Management > When do we require a financial viability check?",
+          "score": 0.80187523
+        },
+        {
+          "id": "procurement___index.md__007",
+          "heading": "The GitLab Procurement Team > What is Procurement? > Vendor Lifecycle Management > 4. Vendor Onboarding",
+          "score": 0.6611813
+        },
+        {
+          "id": "procurement__field-marketing-events.md__000",
+          "heading": "Field Marketing and Events > Important to Know",
+          "score": 0.6430201
+        },
+        {
+          "id": "accounts-payable___index.md__002",
+          "heading": "Accounts Payable > General Guidelines",
+          "score": 0.64249444
+        },
+        {
+          "id": "accounting___index.md__016",
+          "heading": "Accounting and Reporting > Procure to Pay > Vendor Master Management",
+          "score": 0.6347488
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "procurement___index.md__035",
+          "heading": "The GitLab Procurement Team > Third Party Risk Management > When do we require a financial viability check?",
+          "score": 0.03278688524590164
+        },
+        {
+          "id": "procurement___index.md__034",
+          "heading": "The GitLab Procurement Team > Third Party Risk Management",
+          "score": 0.029571646010002173
+        },
+        {
+          "id": "accounts-payable___index.md__002",
+          "heading": "Accounts Payable > General Guidelines",
+          "score": 0.028125
+        },
+        {
+          "id": "procurement___index.md__007",
+          "heading": "The GitLab Procurement Team > What is Procurement? > Vendor Lifecycle Management > 4. Vendor Onboarding",
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "expenses.md__058",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Laptops, insurance and repairs > Repairs to company issued equipment",
+          "score": 0.016129032258064516
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q10",
+      "type": "in_scope",
+      "own": false,
+      "q": "I need something purchased urgently. What should I do?",
+      "dense_top": 0.77807903,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__010",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for a Contingent Worker > How to Submit a Zip Request for a Contractor",
+          "score": 9.784025
+        },
+        {
+          "id": "expenses.md__058",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Laptops, insurance and repairs > Repairs to company issued equipment",
+          "score": 9.731139
+        },
+        {
+          "id": "procurement__coupa-faq.md__010",
+          "heading": "Coupa FAQ > CSP/SAN FAQ > If the supplier already have a Coupa Supplier Portal account, what do they need to do to enable GitLab?",
+          "score": 9.611329
+        },
+        {
+          "id": "procurement___index.md__009",
+          "heading": "The GitLab Procurement Team > What is Procurement? > Vendor Lifecycle Management > 5. Recurring Vendor Reviews and Management > Vendor Renewals",
+          "score": 9.076171
+        },
+        {
+          "id": "procurement__individual-use-software.md__001",
+          "heading": "Individual Use Software > I Need Individual Use Software- Where Do I Start?",
+          "score": 8.812855
+        }
+      ],
+      "bm25_rank": null,
+      "dense": [
+        {
+          "id": "procurement___index.md__032",
+          "heading": "The GitLab Procurement Team > The Procurement Process > What if I have an Urgent Request?",
+          "score": 0.77807903
+        },
+        {
+          "id": "procurement__field-marketing-events.md__004",
+          "heading": "Field Marketing and Events > What if I have an Urgent Request?",
+          "score": 0.7538122
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__000",
+          "heading": "Tips for Submitting a Zip Request",
+          "score": 0.6838399
+        },
+        {
+          "id": "procurement___index.md__015",
+          "heading": "The GitLab Procurement Team > The Procurement Process > Review Steps, Timeline, and Considerations",
+          "score": 0.66787374
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__018",
+          "heading": "Tips for Submitting a Zip Request > Procurement Office Hours",
+          "score": 0.66593695
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "procurement__field-marketing-events.md__004",
+          "heading": "Field Marketing and Events > What if I have an Urgent Request?",
+          "score": 0.029827662395050816
+        },
+        {
+          "id": "procurement___index.md__032",
+          "heading": "The GitLab Procurement Team > The Procurement Process > What if I have an Urgent Request?",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__010",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for a Contingent Worker > How to Submit a Zip Request for a Contractor",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "expenses.md__058",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Laptops, insurance and repairs > Repairs to company issued equipment",
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__000",
+          "heading": "Tips for Submitting a Zip Request",
+          "score": 0.015873015873015872
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q11",
+      "type": "in_scope",
+      "own": false,
+      "q": "What are the exceptions to the PO policy?",
+      "dense_top": 0.8012854,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "procurement___index.md__033",
+          "heading": "The GitLab Procurement Team > What are the exceptions to the PO Policy?",
+          "score": 17.885128
+        },
+        {
+          "id": "accounts-payable___index.md__002",
+          "heading": "Accounts Payable > General Guidelines",
+          "score": 9.519726
+        },
+        {
+          "id": "spending-company-money.md__003",
+          "heading": "Spending Company Money > Ways to spend company money",
+          "score": 9.276444
+        },
+        {
+          "id": "expenses.md__010",
+          "heading": "Global Travel and Expense Policy > 3. General Guidelines > 3.3 Other",
+          "score": 8.834909
+        },
+        {
+          "id": "accounts-payable___index.md__003",
+          "heading": "Accounts Payable > Accounts Payable Processing",
+          "score": 8.808776
+        }
+      ],
+      "bm25_rank": 1,
+      "dense": [
+        {
+          "id": "procurement___index.md__033",
+          "heading": "The GitLab Procurement Team > What are the exceptions to the PO Policy?",
+          "score": 0.8012854
+        },
+        {
+          "id": "expenses.md__010",
+          "heading": "Global Travel and Expense Policy > 3. General Guidelines > 3.3 Other",
+          "score": 0.69863373
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__019",
+          "heading": "Navan Purchasing Card > 5. Out of Policy Transactions",
+          "score": 0.68035066
+        },
+        {
+          "id": "spending-company-money.md__003",
+          "heading": "Spending Company Money > Ways to spend company money",
+          "score": 0.67716444
+        },
+        {
+          "id": "accounts-payable___index.md__002",
+          "heading": "Accounts Payable > General Guidelines",
+          "score": 0.67668
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "procurement___index.md__033",
+          "heading": "The GitLab Procurement Team > What are the exceptions to the PO Policy?",
+          "score": 0.03278688524590164
+        },
+        {
+          "id": "expenses.md__010",
+          "heading": "Global Travel and Expense Policy > 3. General Guidelines > 3.3 Other",
+          "score": 0.031754032258064516
+        },
+        {
+          "id": "accounts-payable___index.md__002",
+          "heading": "Accounts Payable > General Guidelines",
+          "score": 0.0315136476426799
+        },
+        {
+          "id": "spending-company-money.md__003",
+          "heading": "Spending Company Money > Ways to spend company money",
+          "score": 0.03149801587301587
+        },
+        {
+          "id": "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__002",
+          "heading": "Virtual Card Guide for Accounts Payable > How to cancel Virtual Card issued on PO",
+          "score": 0.02900988017658188
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q12",
+      "type": "in_scope",
+      "own": false,
+      "q": "What is Coupa?",
+      "dense_top": 0.7466999,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "procurement__coupa-faq.md__015",
+          "heading": "Coupa FAQ > Coupa Pay > What is Coupa Pay?",
+          "score": 8.919589
+        },
+        {
+          "id": "procurement__coupa-faq.md__004",
+          "heading": "Coupa FAQ > CSP/SAN FAQ > What is the Coupa Supplier Portal (CSP)?",
+          "score": 8.779789
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__010",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for a Contingent Worker > How to Submit a Zip Request for a Contractor",
+          "score": 8.305735
+        },
+        {
+          "id": "procurement__coupa-faq.md__000",
+          "heading": "Coupa FAQ > General FAQ > What is Coupa?",
+          "score": 8.296499
+        },
+        {
+          "id": "accounting___index.md__033",
+          "heading": "Accounting and Reporting > Procure to Pay > How to access Coupa",
+          "score": 7.9860687
+        }
+      ],
+      "bm25_rank": 1,
+      "dense": [
+        {
+          "id": "procurement__coupa-faq.md__000",
+          "heading": "Coupa FAQ > General FAQ > What is Coupa?",
+          "score": 0.7466999
+        },
+        {
+          "id": "accounts-payable__tech-stack-guide-coupa.md__001",
+          "heading": "Coupa Tech Stack Guide > Implementation",
+          "score": 0.7172743
+        },
+        {
+          "id": "procurement__coupa-faq.md__015",
+          "heading": "Coupa FAQ > Coupa Pay > What is Coupa Pay?",
+          "score": 0.71515346
+        },
+        {
+          "id": "accounting___index.md__017",
+          "heading": "Accounting and Reporting > Procure to Pay > Vendor Master Management > New Vendor Onboarding - Coupa",
+          "score": 0.6960933
+        },
+        {
+          "id": "accounting___index.md__020",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting > Invoicing in Coupa",
+          "score": 0.6931845
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "procurement__coupa-faq.md__015",
+          "heading": "Coupa FAQ > Coupa Pay > What is Coupa Pay?",
+          "score": 0.032266458495966696
+        },
+        {
+          "id": "procurement__coupa-faq.md__000",
+          "heading": "Coupa FAQ > General FAQ > What is Coupa?",
+          "score": 0.032018442622950824
+        },
+        {
+          "id": "procurement__coupa-faq.md__004",
+          "heading": "Coupa FAQ > CSP/SAN FAQ > What is the Coupa Supplier Portal (CSP)?",
+          "score": 0.030834914611005692
+        },
+        {
+          "id": "accounts-payable__tech-stack-guide-coupa.md__001",
+          "heading": "Coupa Tech Stack Guide > Implementation",
+          "score": 0.02964254577157803
+        },
+        {
+          "id": "accounting___index.md__033",
+          "heading": "Accounting and Reporting > Procure to Pay > How to access Coupa",
+          "score": 0.02946912242686891
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q13",
+      "type": "in_scope",
+      "own": false,
+      "q": "How do I cancel a virtual card that was issued on a PO?",
+      "dense_top": 0.7883792,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__002",
+          "heading": "Virtual Card Guide for Accounts Payable > How to cancel Virtual Card issued on PO",
+          "score": 35.440395
+        },
+        {
+          "id": "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__003",
+          "heading": "Virtual Card Guide for Accounts Payable > How to reissue Virtual Card issued on PO",
+          "score": 27.95217
+        },
+        {
+          "id": "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__004",
+          "heading": "Virtual Card Guide for Accounts Payable > How to reissue an expired Virtual Card issued on PO",
+          "score": 26.571274
+        },
+        {
+          "id": "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__000",
+          "heading": "Virtual Card Guide for Accounts Payable",
+          "score": 22.435637
+        },
+        {
+          "id": "spending-company-money.md__003",
+          "heading": "Spending Company Money > Ways to spend company money",
+          "score": 19.022701
+        }
+      ],
+      "bm25_rank": 1,
+      "dense": [
+        {
+          "id": "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__002",
+          "heading": "Virtual Card Guide for Accounts Payable > How to cancel Virtual Card issued on PO",
+          "score": 0.7883792
+        },
+        {
+          "id": "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__003",
+          "heading": "Virtual Card Guide for Accounts Payable > How to reissue Virtual Card issued on PO",
+          "score": 0.74084055
+        },
+        {
+          "id": "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__004",
+          "heading": "Virtual Card Guide for Accounts Payable > How to reissue an expired Virtual Card issued on PO",
+          "score": 0.70109844
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__026",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES > 7.5 Cancellation of Card",
+          "score": 0.66587216
+        },
+        {
+          "id": "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__000",
+          "heading": "Virtual Card Guide for Accounts Payable",
+          "score": 0.6546771
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__002",
+          "heading": "Virtual Card Guide for Accounts Payable > How to cancel Virtual Card issued on PO",
+          "score": 0.03278688524590164
+        },
+        {
+          "id": "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__003",
+          "heading": "Virtual Card Guide for Accounts Payable > How to reissue Virtual Card issued on PO",
+          "score": 0.03225806451612903
+        },
+        {
+          "id": "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__004",
+          "heading": "Virtual Card Guide for Accounts Payable > How to reissue an expired Virtual Card issued on PO",
+          "score": 0.031746031746031744
+        },
+        {
+          "id": "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__000",
+          "heading": "Virtual Card Guide for Accounts Payable",
+          "score": 0.031009615384615385
+        },
+        {
+          "id": "spending-company-money.md__003",
+          "heading": "Spending Company Money > Ways to spend company money",
+          "score": 0.029877369007803793
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q14",
+      "type": "in_scope",
+      "own": false,
+      "q": "How does Navan Expense connect to NetSuite?",
+      "dense_top": 0.8069519,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "accounts-payable__tech-stack-guide-liquid.md__002",
+          "heading": "Navan Expense Tech Stack Guide > Integrations > Navan Expense to NetSuite",
+          "score": 12.857672
+        },
+        {
+          "id": "accounting___index.md__042",
+          "heading": "Accounting and Reporting > Expenses > Creation of Expense Tags",
+          "score": 11.023577
+        },
+        {
+          "id": "accounting___index.md__035",
+          "heading": "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Processing Navan Reports",
+          "score": 10.083414
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__023",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES > 7.2 Payment",
+          "score": 9.70775
+        },
+        {
+          "id": "accounting___index.md__037",
+          "heading": "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Paying Navan Reports",
+          "score": 9.55118
+        }
+      ],
+      "bm25_rank": 1,
+      "dense": [
+        {
+          "id": "accounts-payable__tech-stack-guide-liquid.md__002",
+          "heading": "Navan Expense Tech Stack Guide > Integrations > Navan Expense to NetSuite",
+          "score": 0.8069519
+        },
+        {
+          "id": "accounting___index.md__035",
+          "heading": "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Processing Navan Reports",
+          "score": 0.756675
+        },
+        {
+          "id": "accounts-payable__tech-stack-guide-liquid.md__003",
+          "heading": "Navan Expense Tech Stack Guide > Integrations > Okta SCIM to Navan Expense",
+          "score": 0.69674224
+        },
+        {
+          "id": "accounts-payable__tech-stack-guide-liquid.md__001",
+          "heading": "Navan Expense Tech Stack Guide > Implementation",
+          "score": 0.6957918
+        },
+        {
+          "id": "accounts-payable__tech-stack-guide-liquid.md__000",
+          "heading": "Navan Expense Tech Stack Guide",
+          "score": 0.6853219
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "accounts-payable__tech-stack-guide-liquid.md__002",
+          "heading": "Navan Expense Tech Stack Guide > Integrations > Navan Expense to NetSuite",
+          "score": 0.03278688524590164
+        },
+        {
+          "id": "accounting___index.md__035",
+          "heading": "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Processing Navan Reports",
+          "score": 0.03200204813108039
+        },
+        {
+          "id": "accounting___index.md__042",
+          "heading": "Accounting and Reporting > Expenses > Creation of Expense Tags",
+          "score": 0.031054405392392875
+        },
+        {
+          "id": "expenses.md__082",
+          "heading": "Global Travel and Expense Policy > 7. OTHER > Navan End Users Guide",
+          "score": 0.030303030303030304
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__023",
+          "heading": "Navan Purchasing Card > 7. PROCEDURES > 7.2 Payment",
+          "score": 0.029910714285714284
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q15",
+      "type": "in_scope",
+      "own": false,
+      "q": "What is RLOA?",
+      "dense_top": 0.7013331,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "financial-planning-and-analysis___index.md__057",
+          "heading": "Financial Planning & Analysis > Rolling List of Asks (RLOA) > RLOA Timeline",
+          "score": 8.012609
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__055",
+          "heading": "Financial Planning & Analysis > Rolling List of Asks (RLOA) > Detailed Expectations for FP&A",
+          "score": 7.988689
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__056",
+          "heading": "Financial Planning & Analysis > Rolling List of Asks (RLOA) > Detailed Expectations for FP&A",
+          "score": 7.3800826
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__053",
+          "heading": "Financial Planning & Analysis > Rolling List of Asks (RLOA) > Intent of RLOA Process",
+          "score": 6.798399
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__054",
+          "heading": "Financial Planning & Analysis > Rolling List of Asks (RLOA) > Expectations for Business Partners",
+          "score": 6.1004896
+        }
+      ],
+      "bm25_rank": 1,
+      "dense": [
+        {
+          "id": "financial-planning-and-analysis___index.md__053",
+          "heading": "Financial Planning & Analysis > Rolling List of Asks (RLOA) > Intent of RLOA Process",
+          "score": 0.7013331
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__057",
+          "heading": "Financial Planning & Analysis > Rolling List of Asks (RLOA) > RLOA Timeline",
+          "score": 0.6827199
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__055",
+          "heading": "Financial Planning & Analysis > Rolling List of Asks (RLOA) > Detailed Expectations for FP&A",
+          "score": 0.6765479
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__056",
+          "heading": "Financial Planning & Analysis > Rolling List of Asks (RLOA) > Detailed Expectations for FP&A",
+          "score": 0.6718695
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__054",
+          "heading": "Financial Planning & Analysis > Rolling List of Asks (RLOA) > Expectations for Business Partners",
+          "score": 0.66649413
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "financial-planning-and-analysis___index.md__057",
+          "heading": "Financial Planning & Analysis > Rolling List of Asks (RLOA) > RLOA Timeline",
+          "score": 0.03252247488101534
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__053",
+          "heading": "Financial Planning & Analysis > Rolling List of Asks (RLOA) > Intent of RLOA Process",
+          "score": 0.032018442622950824
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__055",
+          "heading": "Financial Planning & Analysis > Rolling List of Asks (RLOA) > Detailed Expectations for FP&A",
+          "score": 0.03200204813108039
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__056",
+          "heading": "Financial Planning & Analysis > Rolling List of Asks (RLOA) > Detailed Expectations for FP&A",
+          "score": 0.03149801587301587
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__054",
+          "heading": "Financial Planning & Analysis > Rolling List of Asks (RLOA) > Expectations for Business Partners",
+          "score": 0.03076923076923077
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q16",
+      "type": "in_scope",
+      "own": false,
+      "q": "Should we use a third-party contractor or an independent contractor?",
+      "dense_top": 0.7075462,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "procurement__vendor-guidelines__po-terms.md__007",
+          "heading": "PURCHASE ORDER TERMS AND CONDITIONS > 6. INDEPENDENT CONTRACTOR",
+          "score": 25.149708
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__007",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for a Contingent Worker > Independent Contractor (option not preferred, used by exception only)",
+          "score": 20.780405
+        },
+        {
+          "id": "procurement__contingent-worker-policy.md__014",
+          "heading": "Contingent Worker Policy > 6. RECOMMENDED USE OF CONTRACT WORKERS THROUGH A THIRD PARTY VS. INDEPENDENT CONTRACTORS",
+          "score": 20.121796
+        },
+        {
+          "id": "procurement__vendor-guidelines__legacy-vendor-agreement-v1.md__015",
+          "heading": "Legacy Vendor Terms and Conditions v1 > 12. INDEPENDENT CONTRACTOR",
+          "score": 19.71311
+        },
+        {
+          "id": "procurement___index.md__014",
+          "heading": "The GitLab Procurement Team > The Procurement Process > Hiring a Contingent Worker?",
+          "score": 17.990294
+        }
+      ],
+      "bm25_rank": 3,
+      "dense": [
+        {
+          "id": "procurement__contingent-worker-policy.md__014",
+          "heading": "Contingent Worker Policy > 6. RECOMMENDED USE OF CONTRACT WORKERS THROUGH A THIRD PARTY VS. INDEPENDENT CONTRACTORS",
+          "score": 0.7075462
+        },
+        {
+          "id": "procurement__contingent-worker-policy.md__007",
+          "heading": "Contingent Worker Policy > 3. CONTINGENT WORKERS",
+          "score": 0.6751214
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__007",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for a Contingent Worker > Independent Contractor (option not preferred, used by exception only)",
+          "score": 0.66972333
+        },
+        {
+          "id": "procurement__vendor-guidelines__po-terms.md__007",
+          "heading": "PURCHASE ORDER TERMS AND CONDITIONS > 6. INDEPENDENT CONTRACTOR",
+          "score": 0.66039395
+        },
+        {
+          "id": "procurement__contingent-worker-policy.md__002",
+          "heading": "Contingent Worker Policy > 3. CONTINGENT WORKERS",
+          "score": 0.6590664
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "procurement__contingent-worker-policy.md__014",
+          "heading": "Contingent Worker Policy > 6. RECOMMENDED USE OF CONTRACT WORKERS THROUGH A THIRD PARTY VS. INDEPENDENT CONTRACTORS",
+          "score": 0.032266458495966696
+        },
+        {
+          "id": "procurement__vendor-guidelines__po-terms.md__007",
+          "heading": "PURCHASE ORDER TERMS AND CONDITIONS > 6. INDEPENDENT CONTRACTOR",
+          "score": 0.032018442622950824
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__007",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for a Contingent Worker > Independent Contractor (option not preferred, used by exception only)",
+          "score": 0.03200204813108039
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__006",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for a Contingent Worker > Consultancy Services",
+          "score": 0.029631255487269532
+        },
+        {
+          "id": "procurement__contingent-worker-policy.md__007",
+          "heading": "Contingent Worker Policy > 3. CONTINGENT WORKERS",
+          "score": 0.029116045245077504
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q17",
+      "type": "in_scope",
+      "own": false,
+      "q": "How do invoice cancellations and refunds work for customers?",
+      "dense_top": 0.71937674,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "accounting___index.md__006",
+          "heading": "Accounting and Reporting > Quote to cash > Invoice cancellations and refunds",
+          "score": 16.266142
+        },
+        {
+          "id": "procurement__contingent-worker-policy.md__008",
+          "heading": "Contingent Worker Policy > 3. CONTINGENT WORKERS",
+          "score": 10.220746
+        },
+        {
+          "id": "accounting__finance-ops__billing-ops-GPO___index.md__003",
+          "heading": "Billing Operations, GPO > How do we work?",
+          "score": 9.995945
+        },
+        {
+          "id": "_index.md__012",
+          "heading": "Finance > Invoice template and where to send > How spend is allocated to departments",
+          "score": 9.622037
+        },
+        {
+          "id": "procurement___index.md__037",
+          "heading": "The GitLab Procurement Team > Third Party Risk Management > How do we prevent disruption in customer service?",
+          "score": 9.418842
+        }
+      ],
+      "bm25_rank": 1,
+      "dense": [
+        {
+          "id": "accounting___index.md__006",
+          "heading": "Accounting and Reporting > Quote to cash > Invoice cancellations and refunds",
+          "score": 0.71937674
+        },
+        {
+          "id": "accounting___index.md__002",
+          "heading": "Accounting and Reporting > Quote to cash > Invoicing to customers",
+          "score": 0.6453701
+        },
+        {
+          "id": "accounting___index.md__014",
+          "heading": "Accounting and Reporting > Quote to cash > Accounts Receivable Process for Non-Payment of Invoices",
+          "score": 0.64068043
+        },
+        {
+          "id": "accounting___index.md__001",
+          "heading": "Accounting and Reporting > Quote to cash > Invoicing to customers",
+          "score": 0.6289217
+        },
+        {
+          "id": "accounts-payable___index.md__005",
+          "heading": "Accounts Payable > Accounts Payable Payments",
+          "score": 0.62439823
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "accounting___index.md__006",
+          "heading": "Accounting and Reporting > Quote to cash > Invoice cancellations and refunds",
+          "score": 0.03278688524590164
+        },
+        {
+          "id": "accounts-payable___index.md__005",
+          "heading": "Accounts Payable > Accounts Payable Payments",
+          "score": 0.030536130536130537
+        },
+        {
+          "id": "accounting___index.md__002",
+          "heading": "Accounting and Reporting > Quote to cash > Invoicing to customers",
+          "score": 0.029827662395050816
+        },
+        {
+          "id": "accounting___index.md__014",
+          "heading": "Accounting and Reporting > Quote to cash > Accounts Receivable Process for Non-Payment of Invoices",
+          "score": 0.02976190476190476
+        },
+        {
+          "id": "_index.md__012",
+          "heading": "Finance > Invoice template and where to send > How spend is allocated to departments",
+          "score": 0.029709507042253523
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q18",
+      "type": "in_scope",
+      "own": false,
+      "q": "What is a PID in the hiring plan?",
+      "dense_top": 0.81443727,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "financial-planning-and-analysis___index.md__043",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Hiring Plan Process > Creating a Position ID (PID)",
+          "score": 19.996613
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__036",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Position ID (PID)",
+          "score": 19.924742
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__042",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Hiring Plan Process",
+          "score": 19.317984
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__045",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Maintaining Hiring Plan",
+          "score": 18.80761
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__038",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Position ID (PID)",
+          "score": 16.676714
+        }
+      ],
+      "bm25_rank": 1,
+      "dense": [
+        {
+          "id": "financial-planning-and-analysis___index.md__042",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Hiring Plan Process",
+          "score": 0.81443727
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__043",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Hiring Plan Process > Creating a Position ID (PID)",
+          "score": 0.79433656
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__038",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Position ID (PID)",
+          "score": 0.792881
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__037",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Position ID (PID)",
+          "score": 0.7927939
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__036",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Position ID (PID)",
+          "score": 0.78936195
+        }
+      ],
+      "dense_rank": 2,
+      "hybrid": [
+        {
+          "id": "financial-planning-and-analysis___index.md__043",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Hiring Plan Process > Creating a Position ID (PID)",
+          "score": 0.03252247488101534
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__042",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Hiring Plan Process",
+          "score": 0.032266458495966696
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__036",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Position ID (PID)",
+          "score": 0.0315136476426799
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__038",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Position ID (PID)",
+          "score": 0.03125763125763126
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__037",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Position ID (PID)",
+          "score": 0.030776515151515152
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q19",
+      "type": "in_scope",
+      "own": false,
+      "q": "What is the trading window?",
+      "dense_top": 0.7617183,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "investor-relations.md__011",
+          "heading": "Investor Relations > Trading Window",
+          "score": 19.202267
+        },
+        {
+          "id": "accounting___index.md__019",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting",
+          "score": 7.6646233
+        },
+        {
+          "id": "accounting___index.md__026",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting > Manually Entering a Bill (invoice) in NetSuite",
+          "score": 7.382807
+        },
+        {
+          "id": "growth-and-development__cfo-shadow-program.md__004",
+          "heading": "CFO Shadow Program > Additional Preparation > Confidentiality",
+          "score": 6.4459743
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__012",
+          "heading": "Financial Planning & Analysis > Business Planning > Business Planning Details",
+          "score": 5.9169254
+        }
+      ],
+      "bm25_rank": 1,
+      "dense": [
+        {
+          "id": "investor-relations.md__011",
+          "heading": "Investor Relations > Trading Window",
+          "score": 0.7617183
+        },
+        {
+          "id": "growth-and-development__cfo-shadow-program.md__004",
+          "heading": "CFO Shadow Program > Additional Preparation > Confidentiality",
+          "score": 0.6594316
+        },
+        {
+          "id": "investor-relations.md__012",
+          "heading": "Investor Relations > Investor Meetings",
+          "score": 0.6183139
+        },
+        {
+          "id": "investor-relations.md__000",
+          "heading": "Investor Relations",
+          "score": 0.60484076
+        },
+        {
+          "id": "procurement__vendor-guidelines__mutual-non-disclosure-agreement.md__005",
+          "heading": "MUTUAL NON-DISCLOSURE AGREEMENT > 2. NONDISCLOSURE OBLIGATIONS",
+          "score": 0.60143477
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "investor-relations.md__011",
+          "heading": "Investor Relations > Trading Window",
+          "score": 0.03278688524590164
+        },
+        {
+          "id": "growth-and-development__cfo-shadow-program.md__004",
+          "heading": "CFO Shadow Program > Additional Preparation > Confidentiality",
+          "score": 0.031754032258064516
+        },
+        {
+          "id": "accounting___index.md__019",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting",
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "investor-relations.md__012",
+          "heading": "Investor Relations > Investor Meetings",
+          "score": 0.015873015873015872
+        },
+        {
+          "id": "accounting___index.md__026",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting > Manually Entering a Bill (invoice) in NetSuite",
+          "score": 0.015873015873015872
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q20",
+      "type": "in_scope",
+      "own": false,
+      "q": "What is the process for AWS Savings Plans and Reserved Instances?",
+      "dense_top": 0.7815877,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "financial-planning-and-analysis__r-and-d-finance__hosting-main.md__001",
+          "heading": "Hosting > AWS - Savings Plan ( SP ) and Reserved Instance ( RI ) Processes",
+          "score": 40.67721
+        },
+        {
+          "id": "procurement___index.md__002",
+          "heading": "The GitLab Procurement Team > What is Procurement? > Shared Goals",
+          "score": 13.318201
+        },
+        {
+          "id": "accounting___index.md__013",
+          "heading": "Accounting and Reporting > Quote to cash > Accounts Receivable Process for Non-Payment of Invoices",
+          "score": 9.818426
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__006",
+          "heading": "Financial Planning & Analysis > FP&A Processes > Annual Operating Plan (\"AOP\")",
+          "score": 9.080124
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__000",
+          "heading": "Tips for Submitting a Zip Request",
+          "score": 8.435303
+        }
+      ],
+      "bm25_rank": 1,
+      "dense": [
+        {
+          "id": "financial-planning-and-analysis__r-and-d-finance__hosting-main.md__001",
+          "heading": "Hosting > AWS - Savings Plan ( SP ) and Reserved Instance ( RI ) Processes",
+          "score": 0.7815877
+        },
+        {
+          "id": "financial-planning-and-analysis__r-and-d-finance__hosting-main.md__000",
+          "heading": "Hosting > GCP - Committed Use Discount ( CUD ) Process",
+          "score": 0.63286483
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__039",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Role Approval and Release Process > Process Overview",
+          "score": 0.60377043
+        },
+        {
+          "id": "accounting__finance-ops__billing-ops___index.md__004",
+          "heading": "Billing Operations > Standard Operating Process",
+          "score": 0.5875947
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__051",
+          "heading": "Financial Planning & Analysis > Expense Controls",
+          "score": 0.5861025
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "financial-planning-and-analysis__r-and-d-finance__hosting-main.md__001",
+          "heading": "Hosting > AWS - Savings Plan ( SP ) and Reserved Instance ( RI ) Processes",
+          "score": 0.03278688524590164
+        },
+        {
+          "id": "financial-planning-and-analysis__r-and-d-finance__hosting-main.md__000",
+          "heading": "Hosting > GCP - Committed Use Discount ( CUD ) Process",
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "procurement___index.md__002",
+          "heading": "The GitLab Procurement Team > What is Procurement? > Shared Goals",
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__039",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Role Approval and Release Process > Process Overview",
+          "score": 0.015873015873015872
+        },
+        {
+          "id": "accounting___index.md__013",
+          "heading": "Accounting and Reporting > Quote to cash > Accounts Receivable Process for Non-Payment of Invoices",
+          "score": 0.015873015873015872
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "o01",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "How do I bake sourdough bread at home?",
+      "dense_top": 0.513239,
+      "gate_pass": false,
+      "bm25": [
+        {
+          "id": "expenses.md__043",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Co-Working Space - Monthly",
+          "score": 8.05903
+        },
+        {
+          "id": "procurement__vendor-guidelines__legacy-vendor-agreement-v1.md__011",
+          "heading": "Legacy Vendor Terms and Conditions v1 > 8. INTELLECTUAL PROPERTY",
+          "score": 7.997249
+        },
+        {
+          "id": "procurement__vendor-guidelines__vendor-agreement.md__014",
+          "heading": "Vendor Terms and Conditions > STANDARD VENDOR TERMS AND CONDITIONS > 9. INTELLECTUAL PROPERTY",
+          "score": 7.997249
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__001",
+          "heading": "Tips for Submitting a Zip Request > Getting Started with Zip",
+          "score": 7.801199
+        },
+        {
+          "id": "expenses.md__056",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Internet",
+          "score": 7.7617397
+        }
+      ],
+      "dense": [
+        {
+          "id": "_index.md__011",
+          "heading": "Finance > Invoice template and where to send > Timesheets for Hourly Employees",
+          "score": 0.513239
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__018",
+          "heading": "Tips for Submitting a Zip Request > Procurement Office Hours",
+          "score": 0.4992141
+        },
+        {
+          "id": "accounting___index.md__019",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting",
+          "score": 0.4951574
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__001",
+          "heading": "Tips for Submitting a Zip Request > Getting Started with Zip",
+          "score": 0.49481693
+        },
+        {
+          "id": "accounting___index.md__025",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting > Manually Entering a Bill (invoice) in NetSuite",
+          "score": 0.4947511
+        }
+      ],
+      "hybrid": [
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__001",
+          "heading": "Tips for Submitting a Zip Request > Getting Started with Zip",
+          "score": 0.03125
+        },
+        {
+          "id": "accounting___index.md__018",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting",
+          "score": 0.029437229437229435
+        },
+        {
+          "id": "accounting__finance-ops__billing-ops___index.md__009",
+          "heading": "Billing Operations > How to get Help",
+          "score": 0.027783137179239824
+        },
+        {
+          "id": "accounting__finance-ops__billing-ops-GPO___index.md__003",
+          "heading": "Billing Operations, GPO > How do we work?",
+          "score": 0.02684684684684685
+        },
+        {
+          "id": "_index.md__011",
+          "heading": "Finance > Invoice template and where to send > Timesheets for Hourly Employees",
+          "score": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "o02",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "Who won the most recent FIFA World Cup?",
+      "dense_top": 0.4842399,
+      "gate_pass": false,
+      "bm25": [
+        {
+          "id": "accounting__finance-ops__billing-ops___index.md__004",
+          "heading": "Billing Operations > Standard Operating Process",
+          "score": 8.126092
+        },
+        {
+          "id": "accounting___index.md__012",
+          "heading": "Accounting and Reporting > Quote to cash > Accounts Receivable Performance Indicators",
+          "score": 7.897373
+        },
+        {
+          "id": "procurement__coupa-faq.md__005",
+          "heading": "Coupa FAQ > CSP/SAN FAQ > What are the key benefits of joining the CSP?",
+          "score": 7.190524
+        },
+        {
+          "id": "growth-and-development__cfo-shadow-program.md__000",
+          "heading": "CFO Shadow Program > Overview",
+          "score": 6.1346703
+        },
+        {
+          "id": "accounting___index.md__040",
+          "heading": "Accounting and Reporting > Expenses > Travel and Expense Guidelines > Spend reduction",
+          "score": 5.9710855
+        }
+      ],
+      "dense": [
+        {
+          "id": "accounts-payable__corp-credit-cards.md__018",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Prizes",
+          "score": 0.4842399
+        },
+        {
+          "id": "expenses.md__043",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Co-Working Space - Monthly",
+          "score": 0.48396242
+        },
+        {
+          "id": "accounts-payable___index.md__005",
+          "heading": "Accounts Payable > Accounts Payable Payments",
+          "score": 0.4786811
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__004",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Airfare and related costs",
+          "score": 0.47626072
+        },
+        {
+          "id": "expenses.md__049",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment > Existing Team Members- 500 USD (or equivalent local currency) Refresh Guidelines",
+          "score": 0.4749274
+        }
+      ],
+      "hybrid": [
+        {
+          "id": "accounts-payable__corp-credit-cards.md__018",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Prizes",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "accounting__finance-ops__billing-ops___index.md__004",
+          "heading": "Billing Operations > Standard Operating Process",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "expenses.md__043",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Co-Working Space - Monthly",
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "accounting___index.md__012",
+          "heading": "Accounting and Reporting > Quote to cash > Accounts Receivable Performance Indicators",
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "accounts-payable___index.md__005",
+          "heading": "Accounts Payable > Accounts Payable Payments",
+          "score": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "o03",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "How do I write a Python function that reverses a string?",
+      "dense_top": 0.50532997,
+      "gate_pass": false,
+      "bm25": [
+        {
+          "id": "growth-and-development__cfo-shadow-program.md__013",
+          "heading": "CFO Shadow Program > Meetings > Keeping time",
+          "score": 9.668711
+        },
+        {
+          "id": "procurement__field-marketing-events.md__001",
+          "heading": "Field Marketing and Events > How Do I Submit a Request for a Contract and PO?",
+          "score": 8.9890785
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__011",
+          "heading": "Financial Planning & Analysis > Business Planning > Business Planning Goal",
+          "score": 8.461483
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__006",
+          "heading": "Financial Planning & Analysis > FP&A Processes > Annual Operating Plan (\"AOP\")",
+          "score": 8.406321
+        },
+        {
+          "id": "financial-planning-and-analysis__r-and-d-finance__hosting-main.md__001",
+          "heading": "Hosting > AWS - Savings Plan ( SP ) and Reserved Instance ( RI ) Processes",
+          "score": 7.386483
+        }
+      ],
+      "dense": [
+        {
+          "id": "accounting___index.md__006",
+          "heading": "Accounting and Reporting > Quote to cash > Invoice cancellations and refunds",
+          "score": 0.50532997
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__016",
+          "heading": "Tips for Submitting a Zip Request > Zip Change Requests",
+          "score": 0.504068
+        },
+        {
+          "id": "accounting__finance-ops__billing-ops-GPO___index.md__000",
+          "heading": "Billing Operations, GPO",
+          "score": 0.5023527
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__001",
+          "heading": "Tips for Submitting a Zip Request > Getting Started with Zip",
+          "score": 0.49933743
+        },
+        {
+          "id": "procurement__vendor-guidelines__mutual-non-disclosure-agreement.md__003",
+          "heading": "MUTUAL NON-DISCLOSURE AGREEMENT > 2. NONDISCLOSURE OBLIGATIONS",
+          "score": 0.49761948
+        }
+      ],
+      "hybrid": [
+        {
+          "id": "_index.md__013",
+          "heading": "Finance > Invoice template and where to send > Finance Business Partner Alignment",
+          "score": 0.026856524873828405
+        },
+        {
+          "id": "accounting___index.md__006",
+          "heading": "Accounting and Reporting > Quote to cash > Invoice cancellations and refunds",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "growth-and-development__cfo-shadow-program.md__013",
+          "heading": "CFO Shadow Program > Meetings > Keeping time",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__016",
+          "heading": "Tips for Submitting a Zip Request > Zip Change Requests",
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "procurement__field-marketing-events.md__001",
+          "heading": "Field Marketing and Events > How Do I Submit a Request for a Contract and PO?",
+          "score": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "o04",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "Will it rain in Manila tomorrow?",
+      "dense_top": 0.5151606,
+      "gate_pass": false,
+      "bm25": [
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__012",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for New Software",
+          "score": 4.400892
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__008",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for a Contingent Worker > How to Submit a Zip Request for a Contractor",
+          "score": 4.3239603
+        },
+        {
+          "id": "procurement__field-marketing-events.md__002",
+          "heading": "Field Marketing and Events > What Happens after I submit my Request?",
+          "score": 4.293725
+        },
+        {
+          "id": "investor-relations.md__011",
+          "heading": "Investor Relations > Trading Window",
+          "score": 4.2798986
+        },
+        {
+          "id": "procurement__vendor-guidelines__mutual-non-disclosure-agreement.md__005",
+          "heading": "MUTUAL NON-DISCLOSURE AGREEMENT > 2. NONDISCLOSURE OBLIGATIONS",
+          "score": 4.117615
+        }
+      ],
+      "dense": [
+        {
+          "id": "procurement__vendor-guidelines__vendor-agreement.md__024",
+          "heading": "Vendor Terms and Conditions > STANDARD VENDOR TERMS AND CONDITIONS > 19. SEVERABILITY",
+          "score": 0.5151606
+        },
+        {
+          "id": "procurement__vendor-guidelines__legacy-vendor-agreement-v1.md__019",
+          "heading": "Legacy Vendor Terms and Conditions v1 > 16. SEVERABILITY",
+          "score": 0.51491416
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__018",
+          "heading": "Financial Planning & Analysis > Quarterly & Monthly Cycle (incl. close, variance, forecast, guidance) > Key Definitions > Forecast at `FYyyyy-mm`",
+          "score": 0.5086869
+        },
+        {
+          "id": "procurement__vendor-guidelines__po-terms.md__009",
+          "heading": "PURCHASE ORDER TERMS AND CONDITIONS > 8. FORCE MAJEURE",
+          "score": 0.5068532
+        },
+        {
+          "id": "expenses.md__013",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 TRAVEL RELATED EXPENSES > Advance Purchase",
+          "score": 0.49517596
+        }
+      ],
+      "hybrid": [
+        {
+          "id": "investor-relations.md__011",
+          "heading": "Investor Relations > Trading Window",
+          "score": 0.030117753623188408
+        },
+        {
+          "id": "procurement__vendor-guidelines__vendor-agreement.md__024",
+          "heading": "Vendor Terms and Conditions > STANDARD VENDOR TERMS AND CONDITIONS > 19. SEVERABILITY",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__012",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for New Software",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "procurement__vendor-guidelines__legacy-vendor-agreement-v1.md__019",
+          "heading": "Legacy Vendor Terms and Conditions v1 > 16. SEVERABILITY",
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__008",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for a Contingent Worker > How to Submit a Zip Request for a Contractor",
+          "score": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "o05",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "How do I fix a router that keeps dropping its Wi-Fi connection?",
+      "dense_top": 0.5356549,
+      "gate_pass": false,
+      "bm25": [
+        {
+          "id": "accounting__finance-ops__billing-ops___index.md__009",
+          "heading": "Billing Operations > How to get Help",
+          "score": 10.086873
+        },
+        {
+          "id": "procurement___index.md__037",
+          "heading": "The GitLab Procurement Team > Third Party Risk Management > How do we prevent disruption in customer service?",
+          "score": 9.548541
+        },
+        {
+          "id": "expenses.md__081",
+          "heading": "Global Travel and Expense Policy > 7. OTHER > Setting up your Navan Account",
+          "score": 8.964571
+        },
+        {
+          "id": "procurement__vendor-guidelines__mutual-non-disclosure-agreement.md__009",
+          "heading": "MUTUAL NON-DISCLOSURE AGREEMENT > 3. GENERAL PROVISIONS",
+          "score": 8.903217
+        },
+        {
+          "id": "procurement__vendor-guidelines__vendor-agreement.md__018",
+          "heading": "Vendor Terms and Conditions > STANDARD VENDOR TERMS AND CONDITIONS > 13. INDEMNIFICATION",
+          "score": 8.086265
+        }
+      ],
+      "dense": [
+        {
+          "id": "expenses.md__056",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Internet",
+          "score": 0.5356549
+        },
+        {
+          "id": "expenses.md__055",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Internet",
+          "score": 0.5232154
+        },
+        {
+          "id": "expenses.md__058",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Laptops, insurance and repairs > Repairs to company issued equipment",
+          "score": 0.5216029
+        },
+        {
+          "id": "expenses.md__057",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Laptops, insurance and repairs",
+          "score": 0.50903034
+        },
+        {
+          "id": "expenses.md__036",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > Travel (Other) > Internet - Travelling",
+          "score": 0.5079528
+        }
+      ],
+      "hybrid": [
+        {
+          "id": "expenses.md__055",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Internet",
+          "score": 0.030017921146953404
+        },
+        {
+          "id": "travel___index.md__012",
+          "heading": "Travel Safety and Security > Secure your data during travels",
+          "score": 0.02877846790890269
+        },
+        {
+          "id": "expenses.md__056",
+          "heading": "Global Travel and Expense Policy > Approved WFH Equipment List > Internet",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "accounting__finance-ops__billing-ops___index.md__009",
+          "heading": "Billing Operations > How to get Help",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "procurement___index.md__037",
+          "heading": "The GitLab Procurement Team > Third Party Risk Management > How do we prevent disruption in customer service?",
+          "score": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "o06",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "What is GitLab's current stock price?",
+      "dense_top": 0.6367371,
+      "gate_pass": false,
+      "bm25": [
+        {
+          "id": "financial-planning-and-analysis___index.md__006",
+          "heading": "Financial Planning & Analysis > FP&A Processes > Annual Operating Plan (\"AOP\")",
+          "score": 8.252763
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__018",
+          "heading": "Financial Planning & Analysis > Quarterly & Monthly Cycle (incl. close, variance, forecast, guidance) > Key Definitions > Forecast at `FYyyyy-mm`",
+          "score": 7.5522914
+        },
+        {
+          "id": "procurement__vendor-guidelines__vendor-agreement.md__004",
+          "heading": "Vendor Terms and Conditions > STANDARD VENDOR TERMS AND CONDITIONS > 1. DEFINITIONS",
+          "score": 6.9679317
+        },
+        {
+          "id": "financial-planning-and-analysis__adaptive-insights.md__006",
+          "heading": "Adaptive Insights > Administration > Assumptions > Revenue Model",
+          "score": 6.8190145
+        },
+        {
+          "id": "growth-and-development__career-growth.md__003",
+          "heading": "Finance Learning and Development > Finance Specific: Job Families & Competencies by Level (WIP) > Accounting",
+          "score": 6.568694
+        }
+      ],
+      "dense": [
+        {
+          "id": "investor-relations.md__009",
+          "heading": "Investor Relations > Quarterly Earnings Process > On the day of the earnings call & release",
+          "score": 0.6367371
+        },
+        {
+          "id": "procurement__coupa-faq.md__008",
+          "heading": "Coupa FAQ > CSP/SAN FAQ > How much does it cost to transact with GitLab via the CSP?",
+          "score": 0.62471646
+        },
+        {
+          "id": "investor-relations.md__001",
+          "heading": "Investor Relations > Quarterly Earnings Process",
+          "score": 0.6227149
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__015",
+          "heading": "Financial Planning & Analysis > Quarterly & Monthly Cycle (incl. close, variance, forecast, guidance)",
+          "score": 0.62145865
+        },
+        {
+          "id": "financial-planning-and-analysis__adaptive-insights.md__009",
+          "heading": "Adaptive Insights > Sheets > Level Assigned Sheets > Income Statement",
+          "score": 0.6168196
+        }
+      ],
+      "hybrid": [
+        {
+          "id": "_index.md__000",
+          "heading": "Finance",
+          "score": 0.029236022193768675
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__006",
+          "heading": "Financial Planning & Analysis > FP&A Processes > Annual Operating Plan (\"AOP\")",
+          "score": 0.029051670471052088
+        },
+        {
+          "id": "investor-relations.md__009",
+          "heading": "Investor Relations > Quarterly Earnings Process > On the day of the earnings call & release",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "procurement__coupa-faq.md__008",
+          "heading": "Coupa FAQ > CSP/SAN FAQ > How much does it cost to transact with GitLab via the CSP?",
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__018",
+          "heading": "Financial Planning & Analysis > Quarterly & Monthly Cycle (incl. close, variance, forecast, guidance) > Key Definitions > Forecast at `FYyyyy-mm`",
+          "score": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "o07",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "How do I file my personal income tax return?",
+      "dense_top": 0.5629708,
+      "gate_pass": false,
+      "bm25": [
+        {
+          "id": "growth-and-development__finbt-mentorship.md__013",
+          "heading": "Under Construction - FinBT Mentorship Program > Resources > Mentee: Set your goal and purpose > What is your goal? > Setting tool-specific goals",
+          "score": 12.551813
+        },
+        {
+          "id": "tax___index.md__004",
+          "heading": "The GitLab Tax Team > Frequently Asked Questions - Tax ID for non-US customers > What if my business is not registered for VAT/GST?",
+          "score": 10.677146
+        },
+        {
+          "id": "tax___index.md__003",
+          "heading": "The GitLab Tax Team > Frequently Asked Questions - Tax ID for non-US customers > Why does GitLab need my Indirect Tax ID?",
+          "score": 10.61627
+        },
+        {
+          "id": "accounting___index.md__019",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting",
+          "score": 9.224649
+        },
+        {
+          "id": "tax___index.md__000",
+          "heading": "The GitLab Tax Team > Contacting the Tax Team",
+          "score": 9.099808
+        }
+      ],
+      "dense": [
+        {
+          "id": "_index.md__011",
+          "heading": "Finance > Invoice template and where to send > Timesheets for Hourly Employees",
+          "score": 0.5629708
+        },
+        {
+          "id": "_index.md__001",
+          "heading": "Finance > Forms",
+          "score": 0.5607529
+        },
+        {
+          "id": "accounting___index.md__026",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting > Manually Entering a Bill (invoice) in NetSuite",
+          "score": 0.554657
+        },
+        {
+          "id": "accounting___index.md__019",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting",
+          "score": 0.54614156
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__001",
+          "heading": "Tips for Submitting a Zip Request > Getting Started with Zip",
+          "score": 0.545879
+        }
+      ],
+      "hybrid": [
+        {
+          "id": "accounting___index.md__019",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting",
+          "score": 0.03125
+        },
+        {
+          "id": "accounting___index.md__026",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting > Manually Entering a Bill (invoice) in NetSuite",
+          "score": 0.031024531024531024
+        },
+        {
+          "id": "accounting___index.md__007",
+          "heading": "Accounting and Reporting > Quote to cash > Accounting for income from sale of merchandise",
+          "score": 0.028006267136701922
+        },
+        {
+          "id": "financial-planning-and-analysis__corporate-finance.md__002",
+          "heading": "Corporate FP&A > Tax Partnership",
+          "score": 0.027417840375586856
+        },
+        {
+          "id": "_index.md__011",
+          "heading": "Finance > Invoice template and where to send > Timesheets for Hourly Employees",
+          "score": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "o08",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "What is the 401(k) matching policy?",
+      "dense_top": 0.5798223,
+      "gate_pass": false,
+      "bm25": [
+        {
+          "id": "financial-planning-and-analysis___index.md__012",
+          "heading": "Financial Planning & Analysis > Business Planning > Business Planning Details",
+          "score": 5.9169254
+        },
+        {
+          "id": "spending-company-money.md__003",
+          "heading": "Spending Company Money > Ways to spend company money",
+          "score": 5.345322
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__009",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for a Contingent Worker > How to Submit a Zip Request for a Contractor",
+          "score": 5.3217773
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__010",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for a Contingent Worker > How to Submit a Zip Request for a Contractor",
+          "score": 5.1429763
+        },
+        {
+          "id": "procurement__contingent-worker-policy.md__004",
+          "heading": "Contingent Worker Policy > 3. CONTINGENT WORKERS",
+          "score": 5.0334535
+        }
+      ],
+      "dense": [
+        {
+          "id": "accounting___index.md__054",
+          "heading": "Accounting and Reporting > Accounting Policies > Investment Policy",
+          "score": 0.5798223
+        },
+        {
+          "id": "accounting___index.md__056",
+          "heading": "Accounting and Reporting > Accounting Policies > Investment Policy",
+          "score": 0.5725645
+        },
+        {
+          "id": "expenses.md__049",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment > Existing Team Members- 500 USD (or equivalent local currency) Refresh Guidelines",
+          "score": 0.5672035
+        },
+        {
+          "id": "accounting___index.md__055",
+          "heading": "Accounting and Reporting > Accounting Policies > Investment Policy",
+          "score": 0.56670237
+        },
+        {
+          "id": "spending-company-money.md__000",
+          "heading": "Spending Company Money",
+          "score": 0.5665659
+        }
+      ],
+      "hybrid": [
+        {
+          "id": "accounting___index.md__054",
+          "heading": "Accounting and Reporting > Accounting Policies > Investment Policy",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__012",
+          "heading": "Financial Planning & Analysis > Business Planning > Business Planning Details",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "accounting___index.md__056",
+          "heading": "Accounting and Reporting > Accounting Policies > Investment Policy",
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "spending-company-money.md__003",
+          "heading": "Spending Company Money > Ways to spend company money",
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "expenses.md__049",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment > Existing Team Members- 500 USD (or equivalent local currency) Refresh Guidelines",
+          "score": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "o09",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "What was GitLab's total revenue last fiscal year?",
+      "dense_top": 0.6773763,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "financial-planning-and-analysis___index.md__006",
+          "heading": "Financial Planning & Analysis > FP&A Processes > Annual Operating Plan (\"AOP\")",
+          "score": 15.8662615
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__010",
+          "heading": "Financial Planning & Analysis > Long Range Outlook (\"LRO\") > LRO Updates",
+          "score": 15.064407
+        },
+        {
+          "id": "_index.md__007",
+          "heading": "Finance > General Topics > Fiscal Year",
+          "score": 15.0313225
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__009",
+          "heading": "Financial Planning & Analysis > Long Range Outlook (\"LRO\")",
+          "score": 14.02291
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__044",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Hiring Plan Process > Creating GHPID",
+          "score": 11.071838
+        }
+      ],
+      "dense": [
+        {
+          "id": "_index.md__007",
+          "heading": "Finance > General Topics > Fiscal Year",
+          "score": 0.6773763
+        },
+        {
+          "id": "financial-planning-and-analysis__adaptive-insights.md__009",
+          "heading": "Adaptive Insights > Sheets > Level Assigned Sheets > Income Statement",
+          "score": 0.67275655
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__006",
+          "heading": "Financial Planning & Analysis > FP&A Processes > Annual Operating Plan (\"AOP\")",
+          "score": 0.6694522
+        },
+        {
+          "id": "financial-planning-and-analysis__adaptive-insights.md__006",
+          "heading": "Adaptive Insights > Administration > Assumptions > Revenue Model",
+          "score": 0.665115
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__015",
+          "heading": "Financial Planning & Analysis > Quarterly & Monthly Cycle (incl. close, variance, forecast, guidance)",
+          "score": 0.6496165
+        }
+      ],
+      "hybrid": [
+        {
+          "id": "_index.md__007",
+          "heading": "Finance > General Topics > Fiscal Year",
+          "score": 0.032266458495966696
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__006",
+          "heading": "Financial Planning & Analysis > FP&A Processes > Annual Operating Plan (\"AOP\")",
+          "score": 0.032266458495966696
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__009",
+          "heading": "Financial Planning & Analysis > Long Range Outlook (\"LRO\")",
+          "score": 0.029910714285714284
+        },
+        {
+          "id": "financial-planning-and-analysis__adaptive-insights.md__006",
+          "heading": "Adaptive Insights > Administration > Assumptions > Revenue Model",
+          "score": 0.028782894736842105
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__019",
+          "heading": "Financial Planning & Analysis > Quarterly & Monthly Cycle (incl. close, variance, forecast, guidance) > Key Definitions > Forecast at `FYyy-Qx`",
+          "score": 0.027212143650499815
+        }
+      ]
+    },
+    {
+      "id": "o10",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "How do I submit an expense report in Concur?",
+      "dense_top": 0.656531,
+      "gate_pass": false,
+      "bm25": [
+        {
+          "id": "expenses.md__045",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Conferences",
+          "score": 11.482697
+        },
+        {
+          "id": "accounting___index.md__035",
+          "heading": "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Processing Navan Reports",
+          "score": 10.683025
+        },
+        {
+          "id": "accounting___index.md__038",
+          "heading": "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Paying Navan Reports > Paying Navan Reports in Tipalti",
+          "score": 10.328833
+        },
+        {
+          "id": "expenses.md__007",
+          "heading": "Global Travel and Expense Policy > 3. General Guidelines",
+          "score": 10.2337055
+        },
+        {
+          "id": "expenses.md__023",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > Hotels",
+          "score": 10.186824
+        }
+      ],
+      "dense": [
+        {
+          "id": "accounting___index.md__027",
+          "heading": "Accounting and Reporting > Procure to Pay > Payment Process",
+          "score": 0.656531
+        },
+        {
+          "id": "expenses.md__082",
+          "heading": "Global Travel and Expense Policy > 7. OTHER > Navan End Users Guide",
+          "score": 0.6501113
+        },
+        {
+          "id": "accounting___index.md__035",
+          "heading": "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Processing Navan Reports",
+          "score": 0.64726985
+        },
+        {
+          "id": "expenses.md__076",
+          "heading": "Global Travel and Expense Policy > Approved Office Supplies List > Legal entities > PEO (Professional Employer Organization/ Employer of Record and not a GitLab entity or Branch)",
+          "score": 0.645655
+        },
+        {
+          "id": "accounting___index.md__036",
+          "heading": "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Billable Expenses",
+          "score": 0.6337285
+        }
+      ],
+      "hybrid": [
+        {
+          "id": "accounting___index.md__035",
+          "heading": "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Processing Navan Reports",
+          "score": 0.03200204813108039
+        },
+        {
+          "id": "accounting___index.md__038",
+          "heading": "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Paying Navan Reports > Paying Navan Reports in Tipalti",
+          "score": 0.03057889822595705
+        },
+        {
+          "id": "accounting___index.md__027",
+          "heading": "Accounting and Reporting > Procure to Pay > Payment Process",
+          "score": 0.029726775956284153
+        },
+        {
+          "id": "accounting___index.md__036",
+          "heading": "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Billable Expenses",
+          "score": 0.02854251012145749
+        },
+        {
+          "id": "procurement__field-marketing-events.md__001",
+          "heading": "Field Marketing and Events > How Do I Submit a Request for a Contract and PO?",
+          "score": 0.02803921568627451
+        }
+      ]
+    },
+    {
+      "id": "n01",
+      "type": "near_miss",
+      "own": false,
+      "q": "Who has to sign off on a contract worth more than 100,000 dollars?",
+      "dense_top": 0.6644334,
+      "gate_pass": false,
+      "bm25": [
+        {
+          "id": "procurement___index.md__006",
+          "heading": "The GitLab Procurement Team > What is Procurement? > Vendor Lifecycle Management > 3. Contracting",
+          "score": 13.119376
+        },
+        {
+          "id": "accounting___index.md__072",
+          "heading": "Accounting and Reporting > Account Reconciliation Policy",
+          "score": 11.96183
+        },
+        {
+          "id": "procurement__contingent-worker-policy.md__014",
+          "heading": "Contingent Worker Policy > 6. RECOMMENDED USE OF CONTRACT WORKERS THROUGH A THIRD PARTY VS. INDEPENDENT CONTRACTORS",
+          "score": 11.336654
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__007",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for a Contingent Worker > Independent Contractor (option not preferred, used by exception only)",
+          "score": 11.304721
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__007",
+          "heading": "Financial Planning & Analysis > FP&A Processes > Annual Operating Plan (\"AOP\") > Annual Planning Steps",
+          "score": 11.231685
+        }
+      ],
+      "dense": [
+        {
+          "id": "procurement___index.md__024",
+          "heading": "The GitLab Procurement Team > The Procurement Process > Review Steps, Timeline, and Considerations > 4.B. Negotiation: 12 days",
+          "score": 0.6644334
+        },
+        {
+          "id": "procurement__trial-agreement.md__000",
+          "heading": "Non-Cost related Agreements",
+          "score": 0.6505335
+        },
+        {
+          "id": "procurement___index.md__038",
+          "heading": "The GitLab Procurement Team > Large Internal Events Process",
+          "score": 0.6431887
+        },
+        {
+          "id": "procurement___index.md__030",
+          "heading": "The GitLab Procurement Team > The Procurement Process > Review Steps, Timeline, and Considerations > 6. Coupa Approvals and Execute Contract: 4 days",
+          "score": 0.6371493
+        },
+        {
+          "id": "procurement___index.md__006",
+          "heading": "The GitLab Procurement Team > What is Procurement? > Vendor Lifecycle Management > 3. Contracting",
+          "score": 0.63256896
+        }
+      ],
+      "hybrid": [
+        {
+          "id": "procurement___index.md__006",
+          "heading": "The GitLab Procurement Team > What is Procurement? > Vendor Lifecycle Management > 3. Contracting",
+          "score": 0.03177805800756621
+        },
+        {
+          "id": "procurement___index.md__030",
+          "heading": "The GitLab Procurement Team > The Procurement Process > Review Steps, Timeline, and Considerations > 6. Coupa Approvals and Execute Contract: 4 days",
+          "score": 0.030776515151515152
+        },
+        {
+          "id": "procurement___index.md__024",
+          "heading": "The GitLab Procurement Team > The Procurement Process > Review Steps, Timeline, and Considerations > 4.B. Negotiation: 12 days",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "procurement__trial-agreement.md__000",
+          "heading": "Non-Cost related Agreements",
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "accounting___index.md__072",
+          "heading": "Accounting and Reporting > Account Reconciliation Policy",
+          "score": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "n02",
+      "type": "near_miss",
+      "own": false,
+      "q": "How is the annual internal audit plan decided?",
+      "dense_top": 0.6463863,
+      "gate_pass": false,
+      "bm25": [
+        {
+          "id": "committee-composition.md__004",
+          "heading": "Committee Composition > Functions",
+          "score": 13.423222
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__006",
+          "heading": "Financial Planning & Analysis > FP&A Processes > Annual Operating Plan (\"AOP\")",
+          "score": 12.59281
+        },
+        {
+          "id": "committee-composition.md__009",
+          "heading": "Committee Composition > Timetable for the Preparation of Annual and Quarterly Reports",
+          "score": 11.4989395
+        },
+        {
+          "id": "financial-planning-and-analysis__corporate-finance.md__005",
+          "heading": "Corporate FP&A > SEC reporting & Internal Audit Partnership",
+          "score": 11.079933
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__045",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Maintaining Hiring Plan",
+          "score": 10.658316
+        }
+      ],
+      "dense": [
+        {
+          "id": "committee-composition.md__004",
+          "heading": "Committee Composition > Functions",
+          "score": 0.6463863
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__007",
+          "heading": "Financial Planning & Analysis > FP&A Processes > Annual Operating Plan (\"AOP\") > Annual Planning Steps",
+          "score": 0.5951831
+        },
+        {
+          "id": "committee-composition.md__002",
+          "heading": "Committee Composition > Identification and consideration of disclosure issues",
+          "score": 0.5951005
+        },
+        {
+          "id": "committee-composition.md__009",
+          "heading": "Committee Composition > Timetable for the Preparation of Annual and Quarterly Reports",
+          "score": 0.5947857
+        },
+        {
+          "id": "procurement__vendor-guidelines__vendor-security-addendum.md__009",
+          "heading": "GitLab Vendor Security Addendum > I. Security Measures > I. Risk Management",
+          "score": 0.5935358
+        }
+      ],
+      "hybrid": [
+        {
+          "id": "committee-composition.md__004",
+          "heading": "Committee Composition > Functions",
+          "score": 0.03278688524590164
+        },
+        {
+          "id": "committee-composition.md__009",
+          "heading": "Committee Composition > Timetable for the Preparation of Annual and Quarterly Reports",
+          "score": 0.03149801587301587
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__007",
+          "heading": "Financial Planning & Analysis > FP&A Processes > Annual Operating Plan (\"AOP\") > Annual Planning Steps",
+          "score": 0.03128054740957967
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__006",
+          "heading": "Financial Planning & Analysis > FP&A Processes > Annual Operating Plan (\"AOP\")",
+          "score": 0.030834914611005692
+        },
+        {
+          "id": "financial-planning-and-analysis__corporate-finance.md__005",
+          "heading": "Corporate FP&A > SEC reporting & Internal Audit Partnership",
+          "score": 0.030776515151515152
+        }
+      ]
+    },
+    {
+      "id": "n03",
+      "type": "near_miss",
+      "own": false,
+      "q": "How do I set up NetSuite roles for a new finance hire?",
+      "dense_top": 0.64726925,
+      "gate_pass": false,
+      "bm25": [
+        {
+          "id": "accounting___index.md__042",
+          "heading": "Accounting and Reporting > Expenses > Creation of Expense Tags",
+          "score": 16.251083
+        },
+        {
+          "id": "accounting___index.md__016",
+          "heading": "Accounting and Reporting > Procure to Pay > Vendor Master Management",
+          "score": 14.657797
+        },
+        {
+          "id": "financial-planning-and-analysis__adaptive-insights.md__018",
+          "heading": "Adaptive Insights > Processing Headcount Movements > Net New Roles",
+          "score": 14.363488
+        },
+        {
+          "id": "financial-planning-and-analysis__adaptive-insights.md__022",
+          "heading": "Adaptive Insights > Processing Headcount Movements > Internal hire (no backfill)",
+          "score": 13.384346
+        },
+        {
+          "id": "procurement__coupa-faq.md__012",
+          "heading": "Coupa FAQ > CSP/SAN FAQ > Do suppliers need to set-up a CSP account, or will this be done for them?",
+          "score": 13.363564
+        }
+      ],
+      "dense": [
+        {
+          "id": "financial-planning-and-analysis___index.md__039",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Role Approval and Release Process > Process Overview",
+          "score": 0.64726925
+        },
+        {
+          "id": "accounting___index.md__070",
+          "heading": "Accounting and Reporting > Chart of Accounts Policy",
+          "score": 0.646106
+        },
+        {
+          "id": "financial-planning-and-analysis__adaptive-insights.md__018",
+          "heading": "Adaptive Insights > Processing Headcount Movements > Net New Roles",
+          "score": 0.6429965
+        },
+        {
+          "id": "financial-planning-and-analysis__adaptive-insights.md__003",
+          "heading": "Adaptive Insights > Administration > Roles",
+          "score": 0.6292368
+        },
+        {
+          "id": "_index.md__014",
+          "heading": "Finance > Invoice template and where to send > Types of Work that the team does",
+          "score": 0.6258051
+        }
+      ],
+      "hybrid": [
+        {
+          "id": "financial-planning-and-analysis__adaptive-insights.md__018",
+          "heading": "Adaptive Insights > Processing Headcount Movements > Net New Roles",
+          "score": 0.031746031746031744
+        },
+        {
+          "id": "accounting___index.md__016",
+          "heading": "Accounting and Reporting > Procure to Pay > Vendor Master Management",
+          "score": 0.030017921146953404
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__039",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Role Approval and Release Process > Process Overview",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "accounting___index.md__042",
+          "heading": "Accounting and Reporting > Expenses > Creation of Expense Tags",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "accounting___index.md__070",
+          "heading": "Accounting and Reporting > Chart of Accounts Policy",
+          "score": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "n04",
+      "type": "near_miss",
+      "own": false,
+      "q": "What are the commission accelerators in the sales compensation plan?",
+      "dense_top": 0.6345151,
+      "gate_pass": false,
+      "bm25": [
+        {
+          "id": "financial-planning-and-analysis___index.md__012",
+          "heading": "Financial Planning & Analysis > Business Planning > Business Planning Details",
+          "score": 16.691795
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__007",
+          "heading": "Financial Planning & Analysis > FP&A Processes > Annual Operating Plan (\"AOP\") > Annual Planning Steps",
+          "score": 14.143969
+        },
+        {
+          "id": "accounting___index.md__061",
+          "heading": "Accounting and Reporting > Accounting Policies > Accrued Liabilities Policy",
+          "score": 12.908546
+        },
+        {
+          "id": "financial-planning-and-analysis__corporate-finance.md__009",
+          "heading": "Corporate FP&A > Talent & Total Rewards Partnership",
+          "score": 11.182035
+        },
+        {
+          "id": "accounting__finance-ops__billing-ops___index.md__011",
+          "heading": "Billing Operations > Billing FAQ",
+          "score": 9.087416
+        }
+      ],
+      "dense": [
+        {
+          "id": "financial-planning-and-analysis__corporate-finance.md__009",
+          "heading": "Corporate FP&A > Talent & Total Rewards Partnership",
+          "score": 0.6345151
+        },
+        {
+          "id": "accounting___index.md__014",
+          "heading": "Accounting and Reporting > Quote to cash > Accounts Receivable Process for Non-Payment of Invoices",
+          "score": 0.62644124
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__012",
+          "heading": "Financial Planning & Analysis > Business Planning > Business Planning Details",
+          "score": 0.6157726
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__047",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Finance Business Partners / Talent Acquisition Managers Forecast Interlock > Headcount Live Dashboards",
+          "score": 0.60838723
+        },
+        {
+          "id": "financial-planning-and-analysis__corporate-finance.md__004",
+          "heading": "Corporate FP&A > Revenue Accounting Partnerships",
+          "score": 0.6077072
+        }
+      ],
+      "hybrid": [
+        {
+          "id": "financial-planning-and-analysis___index.md__012",
+          "heading": "Financial Planning & Analysis > Business Planning > Business Planning Details",
+          "score": 0.032266458495966696
+        },
+        {
+          "id": "financial-planning-and-analysis__corporate-finance.md__009",
+          "heading": "Corporate FP&A > Talent & Total Rewards Partnership",
+          "score": 0.032018442622950824
+        },
+        {
+          "id": "accounting___index.md__061",
+          "heading": "Accounting and Reporting > Accounting Policies > Accrued Liabilities Policy",
+          "score": 0.030798389007344232
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__047",
+          "heading": "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Finance Business Partners / Talent Acquisition Managers Forecast Interlock > Headcount Live Dashboards",
+          "score": 0.030776515151515152
+        },
+        {
+          "id": "accounting___index.md__014",
+          "heading": "Accounting and Reporting > Quote to cash > Accounts Receivable Process for Non-Payment of Invoices",
+          "score": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "in_scope",
+      "own": true,
+      "q": "If a work trip is business-critical, do I need my manager to approve it before I book?",
+      "dense_top": 0.69388664,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "accounting___index.md__050",
+          "heading": "Accounting and Reporting > Property, Plant and Equipment > Disposition of an Asset",
+          "score": 17.882915
+        },
+        {
+          "id": "expenses.md__002",
+          "heading": "Global Travel and Expense Policy > 2. Responsibilities",
+          "score": 16.62415
+        },
+        {
+          "id": "expenses.md__003",
+          "heading": "Global Travel and Expense Policy > 2. Responsibilities",
+          "score": 15.773922
+        },
+        {
+          "id": "expenses.md__035",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > Travel (Other) > Travel Dates - Days before and after",
+          "score": 15.724505
+        },
+        {
+          "id": "procurement__field-marketing-events.md__003",
+          "heading": "Field Marketing and Events > How Long Does it take to get my New Software Purchase Approved?",
+          "score": 15.375816
+        }
+      ],
+      "bm25_rank": 2,
+      "dense": [
+        {
+          "id": "expenses.md__002",
+          "heading": "Global Travel and Expense Policy > 2. Responsibilities",
+          "score": 0.69388664
+        },
+        {
+          "id": "expenses.md__019",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 TRAVEL RELATED EXPENSES > Common Out-of-policy Airfare Flags in Navan",
+          "score": 0.6721797
+        },
+        {
+          "id": "expenses.md__010",
+          "heading": "Global Travel and Expense Policy > 3. General Guidelines > 3.3 Other",
+          "score": 0.6562482
+        },
+        {
+          "id": "expenses.md__035",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > Travel (Other) > Travel Dates - Days before and after",
+          "score": 0.6510818
+        },
+        {
+          "id": "expenses.md__003",
+          "heading": "Global Travel and Expense Policy > 2. Responsibilities",
+          "score": 0.64400244
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "expenses.md__002",
+          "heading": "Global Travel and Expense Policy > 2. Responsibilities",
+          "score": 0.03252247488101534
+        },
+        {
+          "id": "expenses.md__003",
+          "heading": "Global Travel and Expense Policy > 2. Responsibilities",
+          "score": 0.03125763125763126
+        },
+        {
+          "id": "expenses.md__035",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > Travel (Other) > Travel Dates - Days before and after",
+          "score": 0.03125
+        },
+        {
+          "id": "expenses.md__023",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > Hotels",
+          "score": 0.028594771241830064
+        },
+        {
+          "id": "accounting___index.md__050",
+          "heading": "Accounting and Reporting > Property, Plant and Equipment > Disposition of an Asset",
+          "score": 0.01639344262295082
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q22",
+      "type": "in_scope",
+      "own": true,
+      "q": "At what point do I need to use Zip instead of Navan for a purchase?",
+      "dense_top": 0.75853115,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__010",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for a Contingent Worker > How to Submit a Zip Request for a Contractor",
+          "score": 17.961792
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__009",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for a Contingent Worker > How to Submit a Zip Request for a Contractor",
+          "score": 16.79142
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__001",
+          "heading": "Navan Purchasing Card > 2. General Guidelines",
+          "score": 15.7247715
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__016",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Software subscriptions",
+          "score": 14.663604
+        },
+        {
+          "id": "accounting___index.md__040",
+          "heading": "Accounting and Reporting > Expenses > Travel and Expense Guidelines > Spend reduction",
+          "score": 13.278338
+        }
+      ],
+      "bm25_rank": null,
+      "dense": [
+        {
+          "id": "accounts-payable__corp-credit-cards.md__009",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Gift Card Purchases",
+          "score": 0.75853115
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__013",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Monthly recurring charges for vendors under $5,000 USD for an individual charge",
+          "score": 0.75217617
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__016",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Software subscriptions",
+          "score": 0.72927195
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__018",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Prizes",
+          "score": 0.72865903
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__012",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Meals relating to customer/partner dinners",
+          "score": 0.724415
+        }
+      ],
+      "dense_rank": null,
+      "hybrid": [
+        {
+          "id": "accounts-payable__corp-credit-cards.md__016",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Software subscriptions",
+          "score": 0.03149801587301587
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__001",
+          "heading": "Navan Purchasing Card > 2. General Guidelines",
+          "score": 0.02886002886002886
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__000",
+          "heading": "Tips for Submitting a Zip Request",
+          "score": 0.02782608695652174
+        },
+        {
+          "id": "accounts-payable__corp-credit-cards.md__009",
+          "heading": "Navan Purchasing Card > 4. Non- Permissible Items > Gift Card Purchases",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__010",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for a Contingent Worker > How to Submit a Zip Request for a Contractor",
+          "score": 0.01639344262295082
+        }
+      ],
+      "hybrid_rank": null
+    },
+    {
+      "id": "q23",
+      "type": "in_scope",
+      "own": true,
+      "q": "Once an invoice is submitted, how does Finance decide when it gets paid?",
+      "dense_top": 0.74268776,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "accounting___index.md__033",
+          "heading": "Accounting and Reporting > Procure to Pay > How to access Coupa",
+          "score": 13.196573
+        },
+        {
+          "id": "accounting__finance-ops__billing-ops___index.md__011",
+          "heading": "Billing Operations > Billing FAQ",
+          "score": 13.088318
+        },
+        {
+          "id": "jihu-support___index.md__016",
+          "heading": "JiHu Support > Product > Product Designer responsibilities",
+          "score": 12.816414
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__008",
+          "heading": "Tips for Submitting a Zip Request > Submitting a request for a Contingent Worker > How to Submit a Zip Request for a Contractor",
+          "score": 11.375488
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__017",
+          "heading": "Tips for Submitting a Zip Request > Once your Purchase Request is approved",
+          "score": 11.158748
+        }
+      ],
+      "bm25_rank": null,
+      "dense": [
+        {
+          "id": "accounts-payable___index.md__005",
+          "heading": "Accounts Payable > Accounts Payable Payments",
+          "score": 0.74268776
+        },
+        {
+          "id": "accounts-payable___index.md__002",
+          "heading": "Accounts Payable > General Guidelines",
+          "score": 0.7131356
+        },
+        {
+          "id": "procurement___index.md__031",
+          "heading": "The GitLab Procurement Team > The Procurement Process > Review Steps, Timeline, and Considerations > 7. Finalize Request Details",
+          "score": 0.69710815
+        },
+        {
+          "id": "_index.md__012",
+          "heading": "Finance > Invoice template and where to send > How spend is allocated to departments",
+          "score": 0.69601375
+        },
+        {
+          "id": "_index.md__009",
+          "heading": "Finance > Invoice template and where to send",
+          "score": 0.69575876
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "accounts-payable___index.md__005",
+          "heading": "Accounts Payable > Accounts Payable Payments",
+          "score": 0.031544957774465976
+        },
+        {
+          "id": "accounts-payable___index.md__002",
+          "heading": "Accounts Payable > General Guidelines",
+          "score": 0.0304147465437788
+        },
+        {
+          "id": "_index.md__012",
+          "heading": "Finance > Invoice template and where to send > How spend is allocated to departments",
+          "score": 0.0293236301369863
+        },
+        {
+          "id": "procurement__tips-for-submitting-a-zip-request.md__017",
+          "heading": "Tips for Submitting a Zip Request > Once your Purchase Request is approved",
+          "score": 0.029083245521601686
+        },
+        {
+          "id": "accounting___index.md__041",
+          "heading": "Accounting and Reporting > Expenses > Non-Reimbursable Expenses",
+          "score": 0.027417840375586856
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q24",
+      "type": "in_scope",
+      "own": true,
+      "q": "Where should a vendor invoice go so it can be processed for payment?",
+      "dense_top": 0.7360795,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "accounts-payable___index.md__002",
+          "heading": "Accounts Payable > General Guidelines",
+          "score": 19.854504
+        },
+        {
+          "id": "accounting___index.md__018",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting",
+          "score": 18.466846
+        },
+        {
+          "id": "accounting___index.md__025",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting > Manually Entering a Bill (invoice) in NetSuite",
+          "score": 17.835966
+        },
+        {
+          "id": "accounts-payable___index.md__003",
+          "heading": "Accounts Payable > Accounts Payable Processing",
+          "score": 15.502417
+        },
+        {
+          "id": "_index.md__009",
+          "heading": "Finance > Invoice template and where to send",
+          "score": 15.43663
+        }
+      ],
+      "bm25_rank": 4,
+      "dense": [
+        {
+          "id": "accounts-payable___index.md__003",
+          "heading": "Accounts Payable > Accounts Payable Processing",
+          "score": 0.7360795
+        },
+        {
+          "id": "accounting___index.md__019",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting",
+          "score": 0.7167014
+        },
+        {
+          "id": "accounts-payable___index.md__005",
+          "heading": "Accounts Payable > Accounts Payable Payments",
+          "score": 0.71158564
+        },
+        {
+          "id": "accounts-payable___index.md__002",
+          "heading": "Accounts Payable > General Guidelines",
+          "score": 0.7023109
+        },
+        {
+          "id": "accounting___index.md__041",
+          "heading": "Accounting and Reporting > Expenses > Non-Reimbursable Expenses",
+          "score": 0.7003808
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "accounts-payable___index.md__003",
+          "heading": "Accounts Payable > Accounts Payable Processing",
+          "score": 0.032018442622950824
+        },
+        {
+          "id": "accounts-payable___index.md__002",
+          "heading": "Accounts Payable > General Guidelines",
+          "score": 0.032018442622950824
+        },
+        {
+          "id": "accounting___index.md__018",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting",
+          "score": 0.030834914611005692
+        },
+        {
+          "id": "_index.md__009",
+          "heading": "Finance > Invoice template and where to send",
+          "score": 0.030309988518943745
+        },
+        {
+          "id": "accounting___index.md__025",
+          "heading": "Accounting and Reporting > Procure to Pay > Invoice Accounting > Manually Entering a Bill (invoice) in NetSuite",
+          "score": 0.02976190476190476
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "q25",
+      "type": "in_scope",
+      "own": true,
+      "q": "When does Finance need to record an expense as an accrued liability instead of waiting until it's paid?",
+      "dense_top": 0.7435393,
+      "gate_pass": true,
+      "bm25": [
+        {
+          "id": "accounting___index.md__062",
+          "heading": "Accounting and Reporting > Accounting Policies > Accrued Liabilities Policy",
+          "score": 18.34878
+        },
+        {
+          "id": "accounting___index.md__063",
+          "heading": "Accounting and Reporting > Accounting Policies > Accrued Liabilities Policy",
+          "score": 15.78303
+        },
+        {
+          "id": "accounting___index.md__059",
+          "heading": "Accounting and Reporting > Accounting Policies > Prepaid Expense Policy",
+          "score": 15.274079
+        },
+        {
+          "id": "expenses.md__022",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > Car Rental > Additional Car Rental Guidelines",
+          "score": 14.782145
+        },
+        {
+          "id": "accounting___index.md__037",
+          "heading": "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Paying Navan Reports",
+          "score": 14.2513685
+        }
+      ],
+      "bm25_rank": 1,
+      "dense": [
+        {
+          "id": "accounting___index.md__063",
+          "heading": "Accounting and Reporting > Accounting Policies > Accrued Liabilities Policy",
+          "score": 0.7435393
+        },
+        {
+          "id": "accounting___index.md__060",
+          "heading": "Accounting and Reporting > Accounting Policies > Accrued Liabilities Policy",
+          "score": 0.7325187
+        },
+        {
+          "id": "accounting___index.md__064",
+          "heading": "Accounting and Reporting > Accounting Policies > Accrued Liabilities Policy",
+          "score": 0.72594225
+        },
+        {
+          "id": "accounting___index.md__062",
+          "heading": "Accounting and Reporting > Accounting Policies > Accrued Liabilities Policy",
+          "score": 0.72296405
+        },
+        {
+          "id": "accounting___index.md__061",
+          "heading": "Accounting and Reporting > Accounting Policies > Accrued Liabilities Policy",
+          "score": 0.7042866
+        }
+      ],
+      "dense_rank": 1,
+      "hybrid": [
+        {
+          "id": "accounting___index.md__063",
+          "heading": "Accounting and Reporting > Accounting Policies > Accrued Liabilities Policy",
+          "score": 0.03252247488101534
+        },
+        {
+          "id": "accounting___index.md__062",
+          "heading": "Accounting and Reporting > Accounting Policies > Accrued Liabilities Policy",
+          "score": 0.032018442622950824
+        },
+        {
+          "id": "accounting___index.md__060",
+          "heading": "Accounting and Reporting > Accounting Policies > Accrued Liabilities Policy",
+          "score": 0.031054405392392875
+        },
+        {
+          "id": "accounting___index.md__059",
+          "heading": "Accounting and Reporting > Accounting Policies > Prepaid Expense Policy",
+          "score": 0.031024531024531024
+        },
+        {
+          "id": "accounting___index.md__061",
+          "heading": "Accounting and Reporting > Accounting Policies > Accrued Liabilities Policy",
+          "score": 0.030536130536130537
+        }
+      ],
+      "hybrid_rank": 1
+    },
+    {
+      "id": "n05",
+      "type": "near_miss",
+      "own": true,
+      "q": "How many vacation days do I get each year?",
+      "dense_top": 0.6191138,
+      "gate_pass": false,
+      "bm25": [
+        {
+          "id": "_index.md__011",
+          "heading": "Finance > Invoice template and where to send > Timesheets for Hourly Employees",
+          "score": 10.697197
+        },
+        {
+          "id": "expenses.md__049",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment > Existing Team Members- 500 USD (or equivalent local currency) Refresh Guidelines",
+          "score": 10.10227
+        },
+        {
+          "id": "financial-planning-and-analysis___index.md__006",
+          "heading": "Financial Planning & Analysis > FP&A Processes > Annual Operating Plan (\"AOP\")",
+          "score": 9.333271
+        },
+        {
+          "id": "procurement___index.md__015",
+          "heading": "The GitLab Procurement Team > The Procurement Process > Review Steps, Timeline, and Considerations",
+          "score": 7.8978896
+        },
+        {
+          "id": "procurement__field-marketing-events.md__003",
+          "heading": "Field Marketing and Events > How Long Does it take to get my New Software Purchase Approved?",
+          "score": 7.663842
+        }
+      ],
+      "dense": [
+        {
+          "id": "expenses.md__035",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > Travel (Other) > Travel Dates - Days before and after",
+          "score": 0.6191138
+        },
+        {
+          "id": "travel__sponsored.md__006",
+          "heading": "Sponsored Travel > Lodging and M&IE Per Diem Rates",
+          "score": 0.61589605
+        },
+        {
+          "id": "accounting___index.md__053",
+          "heading": "Accounting and Reporting > Accounting Policies > Accounting Team PTO Guidelines",
+          "score": 0.60816675
+        },
+        {
+          "id": "expenses.md__049",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment > Existing Team Members- 500 USD (or equivalent local currency) Refresh Guidelines",
+          "score": 0.60125655
+        },
+        {
+          "id": "expenses.md__036",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > Travel (Other) > Internet - Travelling",
+          "score": 0.5813318
+        }
+      ],
+      "hybrid": [
+        {
+          "id": "expenses.md__049",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment > Existing Team Members- 500 USD (or equivalent local currency) Refresh Guidelines",
+          "score": 0.031754032258064516
+        },
+        {
+          "id": "expenses.md__035",
+          "heading": "Global Travel and Expense Policy > 4. PROCEDURES > Travel (Other) > Travel Dates - Days before and after",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "_index.md__011",
+          "heading": "Finance > Invoice template and where to send > Timesheets for Hourly Employees",
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "travel__sponsored.md__006",
+          "heading": "Sponsored Travel > Lodging and M&IE Per Diem Rates",
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "accounting___index.md__053",
+          "heading": "Accounting and Reporting > Accounting Policies > Accounting Team PTO Guidelines",
+          "score": 0.015873015873015872
+        }
+      ]
+    }
+  ]
+}

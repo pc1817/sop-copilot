@@ -1,0 +1,45 @@
+﻿
+[
+  {
+    "id": "q21",
+    "type": "in_scope",
+    "q": "If a work trip is business-critical, do I need my manager to approve it before I book?",
+    "gold": [["expenses/", "2. Responsibilities"]],
+    "must": []
+  },
+  {
+    "id": "q22",
+    "type": "in_scope",
+    "q": "At what point do I need to use Zip instead of Navan for a purchase?",
+    "gold": [["expenses/", "3. General Guidelines", "Zip"], ["expenses/", "Marketing- related expenses", "Zip"]],
+    "must": []
+  },
+  {
+    "id": "q23",
+    "type": "in_scope",
+    "q": "Once an invoice is submitted, how does Finance decide when it gets paid?",
+    "gold": [["accounts-payable/", "Accounts Payable Payments"]],
+    "must": []
+  },
+  {
+    "id": "q24",
+    "type": "in_scope",
+    "q": "Where should a vendor invoice go so it can be processed for payment?",
+    "gold": [["accounts-payable/", "Accounts Payable Processing"]],
+    "must": []
+  },
+  {
+    "id": "q25",
+    "type": "in_scope",
+    "q": "When does Finance need to record an expense as an accrued liability instead of waiting until it's paid?",
+    "gold": [["accounting/", "Accrued Liabilities Policy"]],
+    "must": []
+  },
+  {
+    "id": "n05",
+    "type": "near_miss",
+    "q": "How many vacation days do I get each year?",
+    "absent": ["vacation days"]
+  }
+]
+
