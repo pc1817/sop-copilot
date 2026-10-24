@@ -74,12 +74,13 @@ def answer_question(index, question: str) -> dict:
         return {**base, "answer": REFUSAL, "refused": True, "reason": "model_declined",
                 "uncited": False, "sources": []}
 
-    cited = sorted({int(n) for n in re.findall(r"\[(\d+)\]", text) if 1 <= int(n) <= len(hits)})
+    cited = sorted({int(n) for n in re.findall(r"[\[\u3010](\d+)[\]\u3011]", text) if 1 <= int(n) <= len(hits)})
     sources = [
         {"n": n, "url": hits[n - 1]["url"], "heading_path": hits[n - 1]["heading_path"]}
         for n in cited
     ]
     return {**base, "answer": text, "refused": False, "reason": None,
             "uncited": not cited, "sources": sources}
+
 
 
