@@ -4,3 +4,4 @@
 __pycache__/
 .cache/
 data/outline.txt
+eval/results/review_*

@@ -11,7 +11,7 @@
     "id": "q22",
     "type": "in_scope",
     "q": "At what point do I need to use Zip instead of Navan for a purchase?",
-    "gold": [["expenses/", "3. General Guidelines", "Zip"], ["expenses/", "Marketing- related expenses", "Zip"]],
+    "gold": [["expenses/", "3. General Guidelines", "Zip"], ["expenses/", "Marketing- related expenses", "Zip"], ["accounts-payable/corp-credit-cards/", "2. General Guidelines", "5,000"]],
     "must": []
   },
   {
@@ -42,4 +42,5 @@
     "absent": ["vacation days"]
   }
 ]
+
 

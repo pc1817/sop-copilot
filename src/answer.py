@@ -62,7 +62,7 @@ def _call_groq(question: str, hits: list[dict]) -> str:
 def answer_question(index, question: str) -> dict:
     r = retrieve_all(index, question)
     dense_top = r["dense_top"]
-    hits = r["hybrid"]
+    hits = r[os.environ.get("RETRIEVAL_MODE", "dense")]
     base = {"question": question, "dense_top": dense_top, "retrieved": [h["id"] for h in hits], "hits": hits}
 
     if dense_top < MIN_DENSE_SCORE:  # gate: no LLM call at all
@@ -81,4 +81,5 @@ def answer_question(index, question: str) -> dict:
     ]
     return {**base, "answer": text, "refused": False, "reason": None,
             "uncited": not cited, "sources": sources}
+
 
