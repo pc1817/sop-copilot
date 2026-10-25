@@ -1,4 +1,4 @@
-﻿"""SOP Knowledge Copilot: Streamlit front end with a password gate and usage limits."""
+"""SOP Knowledge Copilot: Streamlit front end with a password gate and usage limits."""
 import hmac
 import os
 import threading
@@ -146,10 +146,10 @@ if st.button("Ask", type="primary") and question.strip():
                 st.write(f"Top similarity score: {res['dense_top']:.3f} (needs at least {MIN_DENSE_SCORE}). Outcome: {outcome}.")
                 for i, h in enumerate(res["hits"], start=1):
                     st.markdown(f"**[{i}]** {esc(h['heading_path'])}")
-                    st.caption(esc(h["text"][:200].replace("\n", " ")) + "...")
+                    st.caption(h["url"])
 
 st.divider()
 st.caption(
-    "Demo project, not affiliated with GitLab. Handbook content (c) GitLab, shown only as short "
-    "excerpts with links to the source pages. Answers can be wrong, so check the sources."
+    "Demo project, not affiliated with GitLab. Handbook content (c) GitLab, paraphrased in answers, "
+    "with links to the source pages. Answers can be wrong, so check the sources."
 )
