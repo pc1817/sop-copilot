@@ -1,0 +1,956 @@
+{
+  "config": {
+    "prompt": "v2",
+    "retrieval": "dense",
+    "model": "openai/gpt-oss-120b"
+  },
+  "threshold": 0.665,
+  "rows": [
+    {
+      "id": "q01",
+      "type": "in_scope",
+      "own": false,
+      "q": "Do I need a receipt for a $30 expense if I work from the US?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.7100234,
+      "uncited": false,
+      "answer": "No.\u202fFor US\u202fTeam Members a receipt is only required for expenses over\u202f$50\u202fUSD\u30101\u3011.",
+      "uncited_steps": 0,
+      "cited": [
+        "Global Travel and Expense Policy > 3. General Guidelines"
+      ],
+      "retrieved": [
+        "expenses.md__005",
+        "accounts-payable__corp-credit-cards.md__001",
+        "expenses.md__028",
+        "expenses.md__061",
+        "expenses.md__029"
+      ],
+      "used_llm": true,
+      "gold_in_context": true,
+      "must_ok": true
+    },
+    {
+      "id": "q02",
+      "type": "in_scope",
+      "own": false,
+      "q": "I've left the company but still have an unpaid expense. How do I get reimbursed?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.744287,
+      "uncited": false,
+      "answer": "1. Your manager must verify that your final expenses have not already been processed in Navan.\u202f[1]  \n2. Your manager then contacts Accounts\u202fPayable.\u202f[1]  \n3. Your manager submits the valid receipts **and** a completed Expense\u202fReimbursement template together with the manager\u2019s approval.\u202f[1]  \n4. Accounts\u202fPayable may ask you to provide valid banking details so the payment can be made to you.\u202f[1]  \n5. Accounts\u202fPayable will try to process and pay the reimbursement to you within one\u202fweek.\u202f[1]",
+      "uncited_steps": 0,
+      "cited": [
+        "Global Travel and Expense Policy > 7. OTHER > Expense Reimbursement for Terminated Team Members"
+      ],
+      "retrieved": [
+        "expenses.md__089",
+        "expenses.md__076",
+        "expenses.md__073",
+        "expenses.md__008",
+        "accounting___index.md__027"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q03",
+      "type": "in_scope",
+      "own": false,
+      "q": "I lost a receipt. What can I do?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.6798144,
+      "uncited": false,
+      "answer": "1. Complete a Missing\u202fReceipt\u202fAffidavit.\u202fThe team member must fill out the affidavit form.\u202f[1]  \n2. Attach the affidavit to the expense as a PDF when the expense is submitted.\u202f[1]  \n3. Submit the expense (with the PDF affidavit) according to the normal submission process.\u202f[2]  \nIf the expense is a Navan Purchasing Card charge, the same steps apply: the cardholder completes the Missing\u202fReceipt\u202fAffidavit and attaches it as a PDF to the transaction.\u202f[2]\u202fIf the charge is under the general card guidelines, the cardholder also must attach the PDF affidavit.\u202f[3]",
+      "uncited_steps": 0,
+      "cited": [
+        "Global Travel and Expense Policy > Approved Office Supplies List > 4.3 Missing Receipt Affidavit",
+        "Navan Purchasing Card > 7. PROCEDURES > 7.1 Card Holder Responsibility",
+        "Navan Purchasing Card > 2. General Guidelines"
+      ],
+      "retrieved": [
+        "expenses.md__072",
+        "accounts-payable__corp-credit-cards.md__022",
+        "accounts-payable__corp-credit-cards.md__001",
+        "expenses.md__005",
+        "accounts-payable__corp-credit-cards.md__025"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q04",
+      "type": "in_scope",
+      "own": false,
+      "q": "How long does it take to get my expense reimbursement paid out?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.74041206,
+      "uncited": false,
+      "answer": "The payout timing depends on the contributor\u2019s legal status and the GitLab entity that processes the expense:\n\n* **US\u2011based Team Members** \u2013 After the report is \u201cfinal approved,\u201d Navan automatically reimburses the payment within\u202f1\u20114\u202fbusiness days, provided the team member has set up a bank account in Navan.\u202f[2]\n\n* **Team Members paid through a PEO** \u2013 Reimbursement is made together with the regular payroll PEO payment each month; the exact timing can vary by payroll provider (CXC, SafeGuard, Global\u202fPEO, Remote, iiPay, etc.).\u202f[2]\n\n* **All non\u2011US GitLab entities** \u2013 Expenses are paid by the local payroll provider or directly by Accounts\u202fPayable (AP) on the normal weekly run.  \n  \u2013 If the report is \u201cfinal approved\u201d by\u202fEOD\u202fTuesday, it is paid that same week.  \n  \u2013 If approved Wednesday\u2011Friday, it is paid the following week.\u202f[2]\n\n* **Specific legal entities listed in the policy (e.g., GitLab Inc, GitLab Ltd\u202f(UK), GitLab BV, GitLab GmbH, GitLab PTY Ltd, GitLab GK, GitLab Ireland, GitLab Israel, GitLab Korea, GitLab Canada, GitLab Singapore)** \u2013 Reimbursements are made via Navan within\u202f7\u202fbusiness days for in\u2011policy expenses, or after AP approval for out\u2011of\u2011policy expenses.\u202f[3]\n\n* **GitLab France\u202fS.A.S and GitLab\u202fBV\u202fFinland** \u2013 Expenses must be submitted and approved by AP on or before the\u202f6th\u202fof the month to be included in that month\u2019s payroll.\u202f[3]\n\n* **iiPay (individual contractors or C2C, except Nigeria)** \u2013 Payments are issued by iiPay on the\u202f22nd\u202fof each month; expenses must be submitted and AP\u2011approved by the\u202f3rd\u202fof the month to be included.\u202f[4]\n\n* **Batch payment system (Navan)** \u2013 When multiple expenses are submitted during a week, Navan batches them into a single weekly payment that is processed on Monday and should hit the team member\u2019s bank account on Tuesday or Wednesday.\u202f[3]",
+      "uncited_steps": 1,
+      "cited": [
+        "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Paying Navan Reports",
+        "Global Travel and Expense Policy > Approved Office Supplies List > Legal entities",
+        "Global Travel and Expense Policy > Approved Office Supplies List > Legal entities > PEO (Professional Employer Organization/ Employer of Record and not a GitLab entity or Branch)"
+      ],
+      "retrieved": [
+        "expenses.md__073",
+        "accounting___index.md__037",
+        "expenses.md__074",
+        "expenses.md__076",
+        "accounting___index.md__039"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q05",
+      "type": "in_scope",
+      "own": false,
+      "q": "Can I expense a standing desk for working from home?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.7102949,
+      "uncited": false,
+      "answer": "Yes, a standing desk can be expensed as a work\u2011from\u2011home item.  \n\n- The Approved WFH Equipment List includes \u201cDesk or Work Table\u201d as an eligible furniture item\u30102\u3011.  \n- The Equipment section states that essential items such as a chair and desk are covered under the Office Equipment stipend\u30104\u3011.  \n\nTo expense it:  \n\n1. Purchase the standing desk with your own funds.  \n2. Submit a claim in Navan, selecting the expense type \u201cWork From Home \u2013 New Hire Stipend\u201d (or the appropriate yearly refresh type if you are an existing team member)\u30103\u3011\u30104\u3011.  \n\nAll steps must be reviewed by your manager and accounting teams as required by the policy\u30101\u3011.",
+      "uncited_steps": 1,
+      "cited": [
+        "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment",
+        "Global Travel and Expense Policy > Approved WFH Equipment List > Furniture",
+        "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment > New Hires- 1,500 USD (or equivalent local currency) Guidelines",
+        "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment"
+      ],
+      "retrieved": [
+        "expenses.md__047",
+        "expenses.md__051",
+        "expenses.md__048",
+        "expenses.md__046",
+        "expenses.md__061"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q06",
+      "type": "in_scope",
+      "own": false,
+      "q": "My company purchasing card was stolen. Who do I tell?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.7478091,
+      "uncited": false,
+      "answer": "Report the stolen card immediately to the Accounts\u202fPayable Analyst, who will begin the cancellation process.\u202f[1]  \nAlso, at the earliest opportunity, open a Compass ticket for the expense\u2011admin team so the card administrator can confirm the cancellation and reconcile the account from the loss date.\u202f[1]",
+      "uncited_steps": 0,
+      "cited": [
+        "Navan Purchasing Card > 7. PROCEDURES > 7.4 Card Lost or Stolen"
+      ],
+      "retrieved": [
+        "accounts-payable__corp-credit-cards.md__025",
+        "accounts-payable__corp-credit-cards.md__024",
+        "accounts-payable__corp-credit-cards.md__026",
+        "accounting___index.md__043",
+        "accounts-payable__corp-credit-cards.md__020"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q07",
+      "type": "in_scope",
+      "own": false,
+      "q": "Can I buy gift cards with the purchasing card?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.72449046,
+      "uncited": false,
+      "answer": "Gift cards cannot be purchased with the Navan Purchasing Card.  \n\n- All gift\u2011card requests must be submitted via Zip as a Virtual Card request rather than using the purchasing card\u202f[1].  \n- Gift cards are excluded from the Team Building benefit because they are taxable for employees\u202f[2].  \n- For external event prizes, purchases of gift cards are not permitted and must instead be requested as a Virtual Card through Zip\u202f[3].  \n- Within permissible items, the policy explicitly states that \u201cGift cards for team members are not allowed for these gifts\u201d\u202f[4].  \n\nTherefore, the purchasing card cannot be used to buy gift cards.",
+      "uncited_steps": 0,
+      "cited": [
+        "Navan Purchasing Card > 4. Non- Permissible Items > Gift Card Purchases",
+        "Navan Purchasing Card > 4. Non- Permissible Items > Internal Team Member event prizes/contests/awards",
+        "Navan Purchasing Card > 4. Non- Permissible Items > Marketing Events - Prizes and Gifts for external customers",
+        "Navan Purchasing Card > 3. Permissible Items"
+      ],
+      "retrieved": [
+        "accounts-payable__corp-credit-cards.md__009",
+        "accounts-payable__corp-credit-cards.md__010",
+        "accounts-payable__corp-credit-cards.md__011",
+        "accounts-payable__corp-credit-cards.md__002",
+        "accounts-payable__corp-credit-cards.md__017"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q08",
+      "type": "in_scope",
+      "own": false,
+      "q": "How do I kick off the procurement process for a new vendor?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.7471727,
+      "uncited": false,
+      "answer": "1.\u202fNotify your Procurement Category Manager that you are starting a vendor selection and create an issue using the **RFP Intake template**, tagging the Category Manager.\u202f[1]  \n2.\u202fIf the spend is **under\u202f$25\u202fk**, open a **Zip Request** in the Zip system (accessed via Okta) and submit a Purchase Request for the new spend.\u202f[2]  \n3.\u202fIf the spend is **$25\u202fk\u202f\u2013\u202f$100\u202fk**, run a **business\u2011led quick\u2011bid** RFP (require two vendor bids) before any contract work begins.\u202f[2]  \n4.\u202fIf the spend is **$100\u202fk\u202f\u2013\u202f$250\u202fk**, run a **business\u2011led RFP** (require two\u2011to\u2011three vendor bids).\u202f[2]  \n5.\u202fIf the spend is **over\u202f$250\u202fk**, run a **procurement\u2011led RFP** (typically five\u2011plus vendor bids).\u202f[2]  \n6.\u202fBefore sharing any confidential GitLab information, obtain a **Mutual Non\u2011Disclosure Agreement** from the potential vendor(s).\u202f[1]  \n7.\u202fEnsure the vendor agrees to the **GitLab Partner Code of Ethics** as a contractual requirement.\u202f[1]  \n8.\u202fDo not agree to any business, legal, or pricing terms with the vendor until Procurement has been engaged and the appropriate RFP or Zip request is submitted.\u202f[3][4]",
+      "uncited_steps": 0,
+      "cited": [
+        "The GitLab Procurement Team > What is Procurement? > Vendor Lifecycle Management > 1. RFP and Vendor Selection",
+        "The GitLab Procurement Team > The Procurement Process > How to start the Procurement Process",
+        "The GitLab Procurement Team > The Procurement Process",
+        "Field Marketing and Events > Important to Know"
+      ],
+      "retrieved": [
+        "procurement___index.md__004",
+        "procurement___index.md__013",
+        "procurement___index.md__012",
+        "procurement__field-marketing-events.md__000",
+        "procurement__field-marketing-events.md__001"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q09",
+      "type": "in_scope",
+      "own": false,
+      "q": "When does a vendor need a financial viability check?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.80187523,
+      "uncited": false,
+      "answer": "A vendor must undergo a financial viability check whenever any of the following conditions are met: the vendor is a private company, LLC, or self\u2011employed; the services are required for continued operations; the services are cloud hosting; the services are directly related to servicing customers with an uptime requirement; the vendor stores data that would be unrecoverable if the vendor went out of business; or the software or services would take more than one week to replace or swap. [1]",
+      "uncited_steps": 0,
+      "cited": [
+        "The GitLab Procurement Team > Third Party Risk Management > When do we require a financial viability check?"
+      ],
+      "retrieved": [
+        "procurement___index.md__035",
+        "procurement___index.md__007",
+        "procurement__field-marketing-events.md__000",
+        "accounts-payable___index.md__002",
+        "accounting___index.md__016"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q10",
+      "type": "in_scope",
+      "own": false,
+      "q": "I need something purchased urgently. What should I do?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.77807903,
+      "uncited": false,
+      "answer": "Post your urgent purchase request in the **#procurement** Slack channel\u202f\u2014\u202fthe requester must do this\u202f[1].  \nInclude in the message:  \n\n- a link to the purchase request (Zip request for most teams\u202f[1] or Coupa request for Field Marketing\u202f[2])\u202f\u2014\u202fthe requester provides the link\u202f[1][2]  \n- the date the item is needed\u202f\u2014\u202fthe requester specifies the deadline\u202f[1][2]  \n- a specific, quantifiable business impact if the deadline is missed (e.g., \u201cprice will increase $45K if not signed by Friday\u201d or \u201cmaterial negative brand impact if not signed by Friday\u201d)\u202f\u2014\u202fthe requester describes the impact\u202f[1][2]  \n\nDo **not** cite \u201csupplier wants it signed today\u201d as a reason; such requests will be denied\u202f[1][2].  \n\nThe procurement team will evaluate the request and decide whether it can be accommodated based on risk and bandwidth\u202f[1][2].  \n\nIf you know the request is critical, enter it into Zip (or Coupa for Field Marketing) **1\u20132\u202fweeks** before the needed date to avoid escalation\u202f[1][2].",
+      "uncited_steps": 0,
+      "cited": [
+        "The GitLab Procurement Team > The Procurement Process > What if I have an Urgent Request?",
+        "Field Marketing and Events > What if I have an Urgent Request?"
+      ],
+      "retrieved": [
+        "procurement___index.md__032",
+        "procurement__field-marketing-events.md__004",
+        "procurement__tips-for-submitting-a-zip-request.md__000",
+        "procurement___index.md__015",
+        "procurement__tips-for-submitting-a-zip-request.md__018"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q11",
+      "type": "in_scope",
+      "own": false,
+      "q": "What are the exceptions to the PO policy?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.8012854,
+      "uncited": false,
+      "answer": "The PO Policy exceptions are:\n\n1. One\u2011time purchases under $5\u202fK (or less than $5\u202fK annually)\u202f[1]  \n2. Charitable contributions (donations)\u202f[1]  \n3. Interview candidate reimbursement\u202f[1]  \n4. Confidential outside\u2011counsel legal fees\u202f[1]  \n5. Confidential recruiting engagements\u202f[1]  \n6. Statutory tax fees\u202f[1]  \n7. PEO providers\u202f[1]  \n8. AR/customer refunds\u202f[1]  \n9. Board of director payments\u202f[1]  \n10. Financing, banking and investing (including interest, debt, FX, fees)\u202f[1]  \n11. Corporate credit card\u202f[1]  \n12. Urgent payments not included on the list above (approval required from VP, Corporate Controller and/or PAO)\u202f[1]",
+      "uncited_steps": 0,
+      "cited": [
+        "The GitLab Procurement Team > What are the exceptions to the PO Policy?"
+      ],
+      "retrieved": [
+        "procurement___index.md__033",
+        "expenses.md__010",
+        "accounts-payable__corp-credit-cards.md__019",
+        "spending-company-money.md__003",
+        "accounts-payable___index.md__002"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q12",
+      "type": "in_scope",
+      "own": false,
+      "q": "What is Coupa?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.7466999,
+      "uncited": false,
+      "answer": "Coupa is a cloud\u2011based purchasing and payment platform that GitLab began using on 2021\u201106\u201101 for US and Netherlands entities and on 2021\u201112\u201113 for the remaining entities\u30101\u3011. It provides an easy\u2011to\u2011use interface that streamlines supplier connections, purchase requests, approvals, purchase orders, and invoice creation and management through the Coupa Supplier Portal\u30102\u3011. The system also supports Coupa Pay, a digital payments program for paying invoices and accessing remittance advice\u30103\u3011.",
+      "uncited_steps": 0,
+      "cited": [
+        "Coupa FAQ > General FAQ > What is Coupa?",
+        "Coupa Tech Stack Guide > Implementation",
+        "Coupa FAQ > Coupa Pay > What is Coupa Pay?"
+      ],
+      "retrieved": [
+        "procurement__coupa-faq.md__000",
+        "accounts-payable__tech-stack-guide-coupa.md__001",
+        "procurement__coupa-faq.md__015",
+        "accounting___index.md__017",
+        "accounting___index.md__020"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q13",
+      "type": "in_scope",
+      "own": false,
+      "q": "How do I cancel a virtual card that was issued on a PO?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.7883792,
+      "uncited": false,
+      "answer": "**Cancel the Virtual Card by canceling the PO**\n\n1. Select the approved PO that has the Virtual Card issued.\u202f[1]  \n2. Cancel the PO and choose the appropriate transmission method.\u202f[1]  \n3. Verify that both the PO and the Virtual Card now show a **cancelled** status.\u202f[1]  \n\n**Or cancel the Virtual Card by hard\u2011closing the PO**\n\n1. Select the approved PO that has the Virtual Card issued.\u202f[1]  \n2. Soft\u2011close the PO, then close the PO.\u202f[1]  \n3. Verify the PO is closed and the Virtual Card status is **cancelled**.\u202f[1]",
+      "uncited_steps": 0,
+      "cited": [
+        "Virtual Card Guide for Accounts Payable > How to cancel Virtual Card issued on PO"
+      ],
+      "retrieved": [
+        "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__002",
+        "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__003",
+        "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__004",
+        "accounts-payable__corp-credit-cards.md__026",
+        "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__000"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q14",
+      "type": "in_scope",
+      "own": false,
+      "q": "How does Navan Expense connect to NetSuite?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.8069519,
+      "uncited": false,
+      "answer": "Navan Expense uses an out\u2011of\u2011the\u2011box connector that automatically syncs transaction data from Navan Expense into NetSuite. [1]",
+      "uncited_steps": 0,
+      "cited": [
+        "Navan Expense Tech Stack Guide > Integrations > Navan Expense to NetSuite"
+      ],
+      "retrieved": [
+        "accounts-payable__tech-stack-guide-liquid.md__002",
+        "accounting___index.md__035",
+        "accounts-payable__tech-stack-guide-liquid.md__003",
+        "accounts-payable__tech-stack-guide-liquid.md__001",
+        "accounts-payable__tech-stack-guide-liquid.md__000"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q15",
+      "type": "in_scope",
+      "own": false,
+      "q": "What is RLOA?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.7013331,
+      "uncited": false,
+      "answer": "RLOA stands for \u201cRolling List of Asks,\u201d a quarterly\u2011by\u2011quarter list of key incremental investment requests that the business submits to Finance.\u202fIt is maintained by the FP&A Business Partners (FBPs) together with the functional leader(s) and is used to prioritize, recommend, and seek funding for those incremental investments throughout the quarter\u202f[2][3].\u202fThe process creates a repeatable, transparent timeline that aligns business needs with corporate forecasting, enables fast decision\u2011making by the e\u2011group and CFO, and ultimately feeds into the final forecast lock and investor guidance\u202f[1][4].",
+      "uncited_steps": 0,
+      "cited": [
+        "Financial Planning & Analysis > Rolling List of Asks (RLOA) > Intent of RLOA Process",
+        "Financial Planning & Analysis > Rolling List of Asks (RLOA) > RLOA Timeline",
+        "Financial Planning & Analysis > Rolling List of Asks (RLOA) > Detailed Expectations for FP&A",
+        "Financial Planning & Analysis > Rolling List of Asks (RLOA) > Detailed Expectations for FP&A"
+      ],
+      "retrieved": [
+        "financial-planning-and-analysis___index.md__053",
+        "financial-planning-and-analysis___index.md__057",
+        "financial-planning-and-analysis___index.md__055",
+        "financial-planning-and-analysis___index.md__056",
+        "financial-planning-and-analysis___index.md__054"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q16",
+      "type": "in_scope",
+      "own": false,
+      "q": "Should we use a third-party contractor or an independent contractor?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.7075462,
+      "uncited": false,
+      "answer": "GitLab prefers to engage contingent workers through a\u202fthird\u2011party agency rather than as independent contractors, because this reduces misclassification risk and gives GitLab advantages such as vendor\u2011handled tax withholding and security compliance\u202f[1]. Independent contractors may be used only by exception when a truly independent consulting relationship exists, and must be engaged with an Independent Contractor Service Agreement\u202f[3].",
+      "uncited_steps": 0,
+      "cited": [
+        "Contingent Worker Policy > 6. RECOMMENDED USE OF CONTRACT WORKERS THROUGH A THIRD PARTY VS. INDEPENDENT CONTRACTORS",
+        "Tips for Submitting a Zip Request > Submitting a request for a Contingent Worker > Independent Contractor (option not preferred, used by exception only)"
+      ],
+      "retrieved": [
+        "procurement__contingent-worker-policy.md__014",
+        "procurement__contingent-worker-policy.md__007",
+        "procurement__tips-for-submitting-a-zip-request.md__007",
+        "procurement__vendor-guidelines__po-terms.md__007",
+        "procurement__contingent-worker-policy.md__002"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q17",
+      "type": "in_scope",
+      "own": false,
+      "q": "How do invoice cancellations and refunds work for customers?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.71937674,
+      "uncited": false,
+      "answer": "**Invoice cancellations and refunds for customers are handled as a partial refund in Stripe and then reflected in Zuora:**  \n\n1. Log in to Stripe.\u202f[1]  \n2. Search for the cardholder\u2019s name at the top of the screen.\u202f[1]  \n3. Click the original charge that will be refunded.\u202f[1]  \n4. Click the **Refund** button.\u202f[1]  \n5. Enter the amount to refund.\u202f[1]  \n6. Enter the reason code.\u202f[1]  \n7. In the description field, type the reason for the refund and include the invoice created in Zuora for the refunded amount.\u202f[1]  \n8. Click **Refund**.\u202f[1]  \n9. Return to Zuora.\u202f[1]  \n10. Put the customer account in silent mode under \u201cCommunication Profile.\u201d\u202f[1]  \n11. Post the invoice draft.\u202f[1]  \n12. Transfer to credit balance using Accounting Code **Stripe \u2013 Inc**.\u202f[1]  \n13. Put the customer account back into Default/B2B under \u201cCommunication Profile.\u201d\u202f[1]  \n14. Verify the balance due is $0.00 on the refund invoice that was created.\u202f[1]  \n15. Manually e\u2011mail the customer (do not use Zuora\u2019s email function) with a screenshot of the partial refund from Stripe and attach the refund invoice.\u202f[1]",
+      "uncited_steps": 0,
+      "cited": [
+        "Accounting and Reporting > Quote to cash > Invoice cancellations and refunds"
+      ],
+      "retrieved": [
+        "accounting___index.md__006",
+        "accounting___index.md__002",
+        "accounting___index.md__014",
+        "accounting___index.md__001",
+        "accounts-payable___index.md__005"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q18",
+      "type": "in_scope",
+      "own": false,
+      "q": "What is a PID in the hiring plan?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.81443727,
+      "uncited": false,
+      "answer": "A Position ID (PID) is a unique identifier created and assigned by the Corporate FP&A team to every approved headcount position in the Hiring Plan, linking the approved headcount to the plan and increasing visibility and accuracy for forecasting count and dollars\u30105\u3011. Each PID follows the naming convention \u201cFIN\u2011Fiscal\u202fYear\u20110000\u201d (e.g.,\u202fFIN\u2011FY24\u20110000)\u30102\u3011. A PID has a 1\u2011to\u20111 relationship with a GHPID at any given time, tying the approved headcount to the corresponding Greenhouse requisition identifier\u30104\u3011. PIDs are reconciled monthly before each rolling\u2011forecast lock\u30103\u3011.",
+      "uncited_steps": 0,
+      "cited": [
+        "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Hiring Plan Process > Creating a Position ID (PID)",
+        "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Position ID (PID)",
+        "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Position ID (PID)",
+        "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Position ID (PID)"
+      ],
+      "retrieved": [
+        "financial-planning-and-analysis___index.md__042",
+        "financial-planning-and-analysis___index.md__043",
+        "financial-planning-and-analysis___index.md__038",
+        "financial-planning-and-analysis___index.md__037",
+        "financial-planning-and-analysis___index.md__036"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q19",
+      "type": "in_scope",
+      "own": false,
+      "q": "What is the trading window?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.7617183,
+      "uncited": false,
+      "answer": "The trading window is the period during which directors, team members, and consultants are allowed to trade GitLab securities; it opens on the third trading day after the quarterly results announcement and closes immediately before the last four weeks of the fiscal quarter, unless the CLO shortens it because material non\u2011public information exists. [1]",
+      "uncited_steps": 0,
+      "cited": [
+        "Investor Relations > Trading Window"
+      ],
+      "retrieved": [
+        "investor-relations.md__011",
+        "growth-and-development__cfo-shadow-program.md__004",
+        "investor-relations.md__012",
+        "investor-relations.md__000",
+        "procurement__vendor-guidelines__mutual-non-disclosure-agreement.md__005"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q20",
+      "type": "in_scope",
+      "own": false,
+      "q": "What is the process for AWS Savings Plans and Reserved Instances?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.7815877,
+      "uncited": false,
+      "answer": "Submit a Finance issue using the AWS Savings Plan template\u202for\u202fthe AWS Reserved Instance template to request the purchase, and assign the issue to Matt\u202fDunleavy.\u202f[1]",
+      "uncited_steps": 0,
+      "cited": [
+        "Hosting > AWS - Savings Plan ( SP ) and Reserved Instance ( RI ) Processes"
+      ],
+      "retrieved": [
+        "financial-planning-and-analysis__r-and-d-finance__hosting-main.md__001",
+        "financial-planning-and-analysis__r-and-d-finance__hosting-main.md__000",
+        "financial-planning-and-analysis___index.md__039",
+        "accounting__finance-ops__billing-ops___index.md__004",
+        "financial-planning-and-analysis___index.md__051"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "o01",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "How do I bake sourdough bread at home?",
+      "refused": true,
+      "reason": "low_similarity",
+      "dense_top": 0.513239,
+      "uncited": false,
+      "answer": "I can't find that in the GitLab Finance handbook pages I have indexed, so I won't guess.",
+      "uncited_steps": 0,
+      "cited": [],
+      "retrieved": [
+        "_index.md__011",
+        "procurement__tips-for-submitting-a-zip-request.md__018",
+        "accounting___index.md__019",
+        "procurement__tips-for-submitting-a-zip-request.md__001",
+        "accounting___index.md__025"
+      ],
+      "used_llm": false
+    },
+    {
+      "id": "o02",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "Who won the most recent FIFA World Cup?",
+      "refused": true,
+      "reason": "low_similarity",
+      "dense_top": 0.4842399,
+      "uncited": false,
+      "answer": "I can't find that in the GitLab Finance handbook pages I have indexed, so I won't guess.",
+      "uncited_steps": 0,
+      "cited": [],
+      "retrieved": [
+        "accounts-payable__corp-credit-cards.md__018",
+        "expenses.md__043",
+        "accounts-payable___index.md__005",
+        "accounts-payable__corp-credit-cards.md__004",
+        "expenses.md__049"
+      ],
+      "used_llm": false
+    },
+    {
+      "id": "o03",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "How do I write a Python function that reverses a string?",
+      "refused": true,
+      "reason": "low_similarity",
+      "dense_top": 0.50532997,
+      "uncited": false,
+      "answer": "I can't find that in the GitLab Finance handbook pages I have indexed, so I won't guess.",
+      "uncited_steps": 0,
+      "cited": [],
+      "retrieved": [
+        "accounting___index.md__006",
+        "procurement__tips-for-submitting-a-zip-request.md__016",
+        "accounting__finance-ops__billing-ops-GPO___index.md__000",
+        "procurement__tips-for-submitting-a-zip-request.md__001",
+        "procurement__vendor-guidelines__mutual-non-disclosure-agreement.md__003"
+      ],
+      "used_llm": false
+    },
+    {
+      "id": "o04",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "Will it rain in Manila tomorrow?",
+      "refused": true,
+      "reason": "low_similarity",
+      "dense_top": 0.5151606,
+      "uncited": false,
+      "answer": "I can't find that in the GitLab Finance handbook pages I have indexed, so I won't guess.",
+      "uncited_steps": 0,
+      "cited": [],
+      "retrieved": [
+        "procurement__vendor-guidelines__vendor-agreement.md__024",
+        "procurement__vendor-guidelines__legacy-vendor-agreement-v1.md__019",
+        "financial-planning-and-analysis___index.md__018",
+        "procurement__vendor-guidelines__po-terms.md__009",
+        "expenses.md__013"
+      ],
+      "used_llm": false
+    },
+    {
+      "id": "o05",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "How do I fix a router that keeps dropping its Wi-Fi connection?",
+      "refused": true,
+      "reason": "low_similarity",
+      "dense_top": 0.5356549,
+      "uncited": false,
+      "answer": "I can't find that in the GitLab Finance handbook pages I have indexed, so I won't guess.",
+      "uncited_steps": 0,
+      "cited": [],
+      "retrieved": [
+        "expenses.md__056",
+        "expenses.md__055",
+        "expenses.md__058",
+        "expenses.md__057",
+        "expenses.md__036"
+      ],
+      "used_llm": false
+    },
+    {
+      "id": "o06",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "What is GitLab's current stock price?",
+      "refused": true,
+      "reason": "low_similarity",
+      "dense_top": 0.6367371,
+      "uncited": false,
+      "answer": "I can't find that in the GitLab Finance handbook pages I have indexed, so I won't guess.",
+      "uncited_steps": 0,
+      "cited": [],
+      "retrieved": [
+        "investor-relations.md__009",
+        "procurement__coupa-faq.md__008",
+        "investor-relations.md__001",
+        "financial-planning-and-analysis___index.md__015",
+        "financial-planning-and-analysis__adaptive-insights.md__009"
+      ],
+      "used_llm": false
+    },
+    {
+      "id": "o07",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "How do I file my personal income tax return?",
+      "refused": true,
+      "reason": "low_similarity",
+      "dense_top": 0.5629708,
+      "uncited": false,
+      "answer": "I can't find that in the GitLab Finance handbook pages I have indexed, so I won't guess.",
+      "uncited_steps": 0,
+      "cited": [],
+      "retrieved": [
+        "_index.md__011",
+        "_index.md__001",
+        "accounting___index.md__026",
+        "accounting___index.md__019",
+        "procurement__tips-for-submitting-a-zip-request.md__001"
+      ],
+      "used_llm": false
+    },
+    {
+      "id": "o08",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "What is the 401(k) matching policy?",
+      "refused": true,
+      "reason": "low_similarity",
+      "dense_top": 0.5798223,
+      "uncited": false,
+      "answer": "I can't find that in the GitLab Finance handbook pages I have indexed, so I won't guess.",
+      "uncited_steps": 0,
+      "cited": [],
+      "retrieved": [
+        "accounting___index.md__054",
+        "accounting___index.md__056",
+        "expenses.md__049",
+        "accounting___index.md__055",
+        "spending-company-money.md__000"
+      ],
+      "used_llm": false
+    },
+    {
+      "id": "o09",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "What was GitLab's total revenue last fiscal year?",
+      "refused": true,
+      "reason": "model_declined",
+      "dense_top": 0.6773763,
+      "uncited": false,
+      "answer": "I can't find that in the GitLab Finance handbook pages I have indexed, so I won't guess.",
+      "uncited_steps": 0,
+      "cited": [],
+      "retrieved": [
+        "_index.md__007",
+        "financial-planning-and-analysis__adaptive-insights.md__009",
+        "financial-planning-and-analysis___index.md__006",
+        "financial-planning-and-analysis__adaptive-insights.md__006",
+        "financial-planning-and-analysis___index.md__015"
+      ],
+      "used_llm": true
+    },
+    {
+      "id": "o10",
+      "type": "out_of_scope",
+      "own": false,
+      "q": "How do I submit an expense report in Concur?",
+      "refused": true,
+      "reason": "low_similarity",
+      "dense_top": 0.656531,
+      "uncited": false,
+      "answer": "I can't find that in the GitLab Finance handbook pages I have indexed, so I won't guess.",
+      "uncited_steps": 0,
+      "cited": [],
+      "retrieved": [
+        "accounting___index.md__027",
+        "expenses.md__082",
+        "accounting___index.md__035",
+        "expenses.md__076",
+        "accounting___index.md__036"
+      ],
+      "used_llm": false
+    },
+    {
+      "id": "n01",
+      "type": "near_miss",
+      "own": false,
+      "q": "Who has to sign off on a contract worth more than 100,000 dollars?",
+      "refused": true,
+      "reason": "low_similarity",
+      "dense_top": 0.6644334,
+      "uncited": false,
+      "answer": "I can't find that in the GitLab Finance handbook pages I have indexed, so I won't guess.",
+      "uncited_steps": 0,
+      "cited": [],
+      "retrieved": [
+        "procurement___index.md__024",
+        "procurement__trial-agreement.md__000",
+        "procurement___index.md__038",
+        "procurement___index.md__030",
+        "procurement___index.md__006"
+      ],
+      "used_llm": false
+    },
+    {
+      "id": "n02",
+      "type": "near_miss",
+      "own": false,
+      "q": "How is the annual internal audit plan decided?",
+      "refused": true,
+      "reason": "low_similarity",
+      "dense_top": 0.6463863,
+      "uncited": false,
+      "answer": "I can't find that in the GitLab Finance handbook pages I have indexed, so I won't guess.",
+      "uncited_steps": 0,
+      "cited": [],
+      "retrieved": [
+        "committee-composition.md__004",
+        "financial-planning-and-analysis___index.md__007",
+        "committee-composition.md__002",
+        "committee-composition.md__009",
+        "procurement__vendor-guidelines__vendor-security-addendum.md__009"
+      ],
+      "used_llm": false
+    },
+    {
+      "id": "n03",
+      "type": "near_miss",
+      "own": false,
+      "q": "How do I set up NetSuite roles for a new finance hire?",
+      "refused": true,
+      "reason": "low_similarity",
+      "dense_top": 0.64726925,
+      "uncited": false,
+      "answer": "I can't find that in the GitLab Finance handbook pages I have indexed, so I won't guess.",
+      "uncited_steps": 0,
+      "cited": [],
+      "retrieved": [
+        "financial-planning-and-analysis___index.md__039",
+        "accounting___index.md__070",
+        "financial-planning-and-analysis__adaptive-insights.md__018",
+        "financial-planning-and-analysis__adaptive-insights.md__003",
+        "_index.md__014"
+      ],
+      "used_llm": false
+    },
+    {
+      "id": "n04",
+      "type": "near_miss",
+      "own": false,
+      "q": "What are the commission accelerators in the sales compensation plan?",
+      "refused": true,
+      "reason": "low_similarity",
+      "dense_top": 0.6345151,
+      "uncited": false,
+      "answer": "I can't find that in the GitLab Finance handbook pages I have indexed, so I won't guess.",
+      "uncited_steps": 0,
+      "cited": [],
+      "retrieved": [
+        "financial-planning-and-analysis__corporate-finance.md__009",
+        "accounting___index.md__014",
+        "financial-planning-and-analysis___index.md__012",
+        "financial-planning-and-analysis___index.md__047",
+        "financial-planning-and-analysis__corporate-finance.md__004"
+      ],
+      "used_llm": false
+    },
+    {
+      "id": "q21",
+      "type": "in_scope",
+      "own": true,
+      "q": "If a work trip is business-critical, do I need my manager to approve it before I book?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.69388664,
+      "uncited": false,
+      "answer": "Yes.\u202fTeam Members must inform their direct manager of all business\u2011trip plans before booking and must receive manager approval for any proposed business\u2011critical trips.\u202f[1]",
+      "uncited_steps": 0,
+      "cited": [
+        "Global Travel and Expense Policy > 2. Responsibilities"
+      ],
+      "retrieved": [
+        "expenses.md__002",
+        "expenses.md__019",
+        "expenses.md__010",
+        "expenses.md__035",
+        "expenses.md__003"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q22",
+      "type": "in_scope",
+      "own": true,
+      "q": "At what point do I need to use Zip instead of Navan for a purchase?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.75853115,
+      "uncited": false,
+      "answer": "You must submit a Zip request (to obtain a Virtual Card) for any purchase that falls under the \u201cNon\u2011Permissible Items\u201d list:\n\n- Gift\u2011card purchases\u202f\u2192\u202fsubmit via Zip for a Virtual Card. [1]  \n- Monthly recurring vendor charges under\u202f$5,000\u202fUSD\u202f\u2192\u202fnot permitted on Navan; request via Zip. [2]  \n- All software subscriptions (e.g., Amazon, Dropbox, Adobe)\u202f\u2192\u202fsubmit a Purchase Request via Zip. [3]  \n- Prize purchases\u202f\u2192\u202fsubmit via Zip to request a Virtual Card (Swag prizes follow the merchandise workflow). [4]  \n- Meals for customer/partner dinners\u202f\u2192\u202fexpense through the Employee reimbursement process **or** request a Virtual Card via Zip. [5]  \n\nFor any of these cases you use Zip instead of directly purchasing through Navan.",
+      "uncited_steps": 0,
+      "cited": [
+        "Navan Purchasing Card > 4. Non- Permissible Items > Gift Card Purchases",
+        "Navan Purchasing Card > 4. Non- Permissible Items > Monthly recurring charges for vendors under $5,000 USD for an individual charge",
+        "Navan Purchasing Card > 4. Non- Permissible Items > Software subscriptions",
+        "Navan Purchasing Card > 4. Non- Permissible Items > Prizes",
+        "Navan Purchasing Card > 4. Non- Permissible Items > Meals relating to customer/partner dinners"
+      ],
+      "retrieved": [
+        "accounts-payable__corp-credit-cards.md__009",
+        "accounts-payable__corp-credit-cards.md__013",
+        "accounts-payable__corp-credit-cards.md__016",
+        "accounts-payable__corp-credit-cards.md__018",
+        "accounts-payable__corp-credit-cards.md__012"
+      ],
+      "used_llm": true,
+      "gold_in_context": false
+    },
+    {
+      "id": "q23",
+      "type": "in_scope",
+      "own": true,
+      "q": "Once an invoice is submitted, how does Finance decide when it gets paid?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.74268776,
+      "uncited": false,
+      "answer": "Finance determines the payment timing based on the invoice\u2019s due date, the vendor\u2019s payment\u2011terms, and whether the invoice is fully approved in ZIP before the Thursday run\u202f[1][2].  \n\n1. **Due date / contract terms** \u2013 Invoices are paid on the earlier of the invoice due date or the vendor\u2019s contract payment terms\u202f[1].  \n\n2. **Approval deadline** \u2013 To be included in the Thursday payment run, the invoice must be received and fully approved in ZIP by Wednesday end\u2011of\u2011day\u202f[1][2].  \n\n3. **Thursday payment run** \u2013 Payments are processed each Thursday (except month\u2011end closing weeks or major holidays) and then released via NetSuite Electronic Payments, ACH or Wire; funds may take 1\u20115 business days to reach the vendor depending on country, currency and method\u202f[2].  \n\n4. **Urgent payments** \u2013 \u201cUrgent Payment\u201d requests are placed in the next available Thursday run, provided the invoice is fully approved in ZIP; same\u2011day payments are not possible\u202f[2].  \n\n5. **Manual payments** \u2013 Certain categories (e.g., payroll invoices, speaker reimbursement, urgent vendor payments, tax payments, cross\u2011currency payments, etc.) are processed as manual payments outside the regular Thursday run\u202f[1].  \n\nIf any of these conditions are not met (e.g., missing approval, not uploaded to ZIP, or not a manual\u2011payment category), the invoice will not be paid in that cycle.",
+      "uncited_steps": 0,
+      "cited": [
+        "Accounts Payable > Accounts Payable Payments",
+        "Accounts Payable > General Guidelines"
+      ],
+      "retrieved": [
+        "accounts-payable___index.md__005",
+        "accounts-payable___index.md__002",
+        "procurement___index.md__031",
+        "_index.md__012",
+        "_index.md__009"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q24",
+      "type": "in_scope",
+      "own": true,
+      "q": "Where should a vendor invoice go so it can be processed for payment?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.7360795,
+      "uncited": false,
+      "answer": "A vendor should either upload the invoice to the GitLab ZIP portal (using the PO\u2011Flip method)\u202for email a PDF copy to **ap@gitlab.com** so the AP team can process it.\u202f[1]\u202f[4]",
+      "uncited_steps": 0,
+      "cited": [
+        "Accounts Payable > Accounts Payable Processing",
+        "Accounts Payable > General Guidelines"
+      ],
+      "retrieved": [
+        "accounts-payable___index.md__003",
+        "accounting___index.md__019",
+        "accounts-payable___index.md__005",
+        "accounts-payable___index.md__002",
+        "accounting___index.md__041"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q25",
+      "type": "in_scope",
+      "own": true,
+      "q": "When does Finance need to record an expense as an accrued liability instead of waiting until it's paid?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.7435393,
+      "uncited": false,
+      "answer": "Finance must record an expense as an accrued liability when the expense has been incurred in the month being closed\u2014that is, when the product or service has been received on or before the last day of that month and the risk of ownership has passed to GitLab\u2014rather than waiting until payment is made\u202f[4]. If payment is due before the goods or services are received, the amount is instead accrued to prepaid expenses\u202f[4]. All expenses\u202f\u2265\u202f$5\u202fK\u202fUSD must be recorded in the period incurred, and the Finance and Operations teams must provide the necessary calculations and backup by Working Day\u202f\u2011\u202f1 for the month\u2011end close\u202f[2].",
+      "uncited_steps": 0,
+      "cited": [
+        "Accounting and Reporting > Accounting Policies > Accrued Liabilities Policy",
+        "Accounting and Reporting > Accounting Policies > Accrued Liabilities Policy"
+      ],
+      "retrieved": [
+        "accounting___index.md__063",
+        "accounting___index.md__060",
+        "accounting___index.md__064",
+        "accounting___index.md__062",
+        "accounting___index.md__061"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "n05",
+      "type": "near_miss",
+      "own": true,
+      "q": "How many vacation days do I get each year?",
+      "refused": true,
+      "reason": "low_similarity",
+      "dense_top": 0.6191138,
+      "uncited": false,
+      "answer": "I can't find that in the GitLab Finance handbook pages I have indexed, so I won't guess.",
+      "uncited_steps": 0,
+      "cited": [],
+      "retrieved": [
+        "expenses.md__035",
+        "travel__sponsored.md__006",
+        "accounting___index.md__053",
+        "expenses.md__049",
+        "expenses.md__036"
+      ],
+      "used_llm": false
+    }
+  ]
+}
