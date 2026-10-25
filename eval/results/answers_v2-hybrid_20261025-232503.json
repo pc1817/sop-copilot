@@ -1,0 +1,259 @@
+{
+  "config": {
+    "prompt": "v2",
+    "retrieval": "hybrid",
+    "model": "openai/gpt-oss-120b"
+  },
+  "threshold": 0.665,
+  "rows": [
+    {
+      "id": "q02",
+      "type": "in_scope",
+      "own": false,
+      "q": "I've left the company but still have an unpaid expense. How do I get reimbursed?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.744287,
+      "uncited": false,
+      "answer": "1. Your manager must first verify that the expense has not already been processed in Navan.\u202f[1]  \n2. The manager then contacts Accounts\u202fPayable and submits the valid receipts together with a completed Expense\u202fReimbursement template and the manager\u2019s approval.\u202f[1]  \n3. Accounts\u202fPayable may request that you (the terminated team member) provide valid banking details so the payment can be made to you.\u202f[1]  \n4. Accounts\u202fPayable will try to process and pay the reimbursement within one week.\u202f[1]",
+      "uncited_steps": 0,
+      "cited": [
+        "Global Travel and Expense Policy > 7. OTHER > Expense Reimbursement for Terminated Team Members"
+      ],
+      "retrieved": [
+        "expenses.md__089",
+        "spending-company-money.md__003",
+        "spending-company-money.md__001",
+        "accounting___index.md__037",
+        "expenses.md__058"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q03",
+      "type": "in_scope",
+      "own": false,
+      "q": "I lost a receipt. What can I do?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.6798144,
+      "uncited": false,
+      "answer": "If a receipt is missing, the Team Member must complete a Missing\u202fReceipt\u202fAffidavit and attach it to the expense when it is submitted. The affidavit should be saved as a PDF before attaching it to the expense claim. [3]",
+      "uncited_steps": 0,
+      "cited": [
+        "Global Travel and Expense Policy > Approved Office Supplies List > 4.3 Missing Receipt Affidavit"
+      ],
+      "retrieved": [
+        "accounts-payable__corp-credit-cards.md__025",
+        "expenses.md__005",
+        "expenses.md__072",
+        "accounting__finance-ops__billing-ops___index.md__009",
+        "expenses.md__029"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q04",
+      "type": "in_scope",
+      "own": false,
+      "q": "How long does it take to get my expense reimbursement paid out?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.74041206,
+      "uncited": false,
+      "answer": "- If you are a team member under a **US expense policy**, the reimbursement is issued through Navan **within\u202f1\u20114 business days after the report is \u201cfinal approved.\u201d** The team member must have set up their bank account in Navan. [2]\n\n- If you are a team member in a **non\u2011US GitLab entity**, the reimbursement is handled by Accounts\u202fPayable (AP) on the regular weekly payment run.  \n  - An expense report that is \u201cfinal approved\u201d **by\u202fEOD Tuesday** will be included in that week\u2019s Thursday payment run and paid that same week.  \n  - An expense report that is \u201cfinal approved\u201d **on Wednesday\u2011Friday** will miss the current Thursday run and will be paid on the following week\u2019s Thursday run. [2]\n\n- For **team members paid through a PEO** (e.g., CXC, SafeGuard, Global\u202fPEO, Remote, iiPay), the timing **varies** and follows the payroll schedule of the respective provider. [2]",
+      "uncited_steps": 2,
+      "cited": [
+        "Accounting and Reporting > Expenses > Team Member Reimbursements - Navan > Paying Navan Reports"
+      ],
+      "retrieved": [
+        "accounts-payable___index.md__005",
+        "accounting___index.md__037",
+        "spending-company-money.md__001",
+        "expenses.md__006",
+        "accounting___index.md__039"
+      ],
+      "used_llm": true,
+      "gold_in_context": false
+    },
+    {
+      "id": "q05",
+      "type": "in_scope",
+      "own": false,
+      "q": "Can I expense a standing desk for working from home?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.7102949,
+      "uncited": false,
+      "answer": "Yes, you can expense a standing desk for your home office.\u202fA desk (or work table) is listed as an approved piece of furniture for the Work\u2011From\u2011Home stipend\u202f[2] and it is one of the items that can be purchased with your own funds and claimed in Navan\u202f[1].\u202fMake sure the purchase complies with the policy and is submitted using the \u201cWork From Home \u2013 New Hire Stipend\u201d (or the appropriate expense type for existing members) expense type.\u202fIf the desk is outside the listed items, you would need prior approval via the Compass \u201cExpenses\u202f\u2192\u202fHome Office Equipment\u201d process\u202f[3].",
+      "uncited_steps": 0,
+      "cited": [
+        "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment",
+        "Global Travel and Expense Policy > Approved WFH Equipment List > Furniture",
+        "Global Travel and Expense Policy > 4. PROCEDURES > 4.1 NON-TRAVEL RELATED EXPENSES > Equipment"
+      ],
+      "retrieved": [
+        "expenses.md__046",
+        "expenses.md__051",
+        "expenses.md__047",
+        "expenses.md__048",
+        "expenses.md__043"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q11",
+      "type": "in_scope",
+      "own": false,
+      "q": "What are the exceptions to the PO policy?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.8012854,
+      "uncited": false,
+      "answer": "The PO Policy exceptions are:\n\n1. One\u2011time purchases under $5\u202fK (or less than $5\u202fK annually)\u202f[1]  \n2. Charitable contributions (donations)\u202f[1]  \n3. Interview candidate reimbursement\u202f[1]  \n4. Confidential outside\u2011counsel legal fees\u202f[1]  \n5. Confidential recruiting engagements\u202f[1]  \n6. Statutory tax fees\u202f[1]  \n7. PEO providers\u202f[1]  \n8. AR/customer refunds\u202f[1]  \n9. Board of director payments\u202f[1]  \n10. Financing, banking and investing (including interest, debt, FX, fees)\u202f[1]  \n11. Corporate credit card\u202f[1]  \n12. Urgent payments not included on the list above (approval required from VP, Corporate Controller and/or PAO)\u202f[1]",
+      "uncited_steps": 0,
+      "cited": [
+        "The GitLab Procurement Team > What are the exceptions to the PO Policy?"
+      ],
+      "retrieved": [
+        "procurement___index.md__033",
+        "expenses.md__010",
+        "accounts-payable___index.md__002",
+        "spending-company-money.md__003",
+        "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__002"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q12",
+      "type": "in_scope",
+      "own": false,
+      "q": "What is Coupa?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.7466999,
+      "uncited": false,
+      "answer": "Coupa is a cloud\u2011based purchasing and payment platform that GitLab began using on 1\u202fJune\u202f2021 for its US and Netherlands entities and on 13\u202fDecember\u202f2021 for the remaining entities\u202f[2]. All new purchase orders, invoices and communications are managed through the Coupa Supplier Portal\u202f[2][4]. It provides an easy\u2011to\u2011use interface that improves how suppliers connect with GitLab\u202f[2][4].",
+      "uncited_steps": 0,
+      "cited": [
+        "Coupa FAQ > General FAQ > What is Coupa?",
+        "Coupa Tech Stack Guide > Implementation"
+      ],
+      "retrieved": [
+        "procurement__coupa-faq.md__015",
+        "procurement__coupa-faq.md__000",
+        "procurement__coupa-faq.md__004",
+        "accounts-payable__tech-stack-guide-coupa.md__001",
+        "accounting___index.md__033"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q13",
+      "type": "in_scope",
+      "own": false,
+      "q": "How do I cancel a virtual card that was issued on a PO?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.7883792,
+      "uncited": false,
+      "answer": "**Cancel the Virtual Card by canceling the PO**  \n\n1.\u202fSelect the approved PO that has the Virtual Card issued.\u202f[1]  \n2.\u202fCancel the PO and choose the appropriate transmission method.\u202f[1]  \n3.\u202fVerify that both the PO and the Virtual Card now show a **Cancelled** status.\u202f[1]  \n\n**Alternative: Hard\u2011close the PO**  \n\n1.\u202fSelect the approved PO with the Virtual Card issued.\u202f[1]  \n2.\u202fSoft\u2011close the PO, then close the PO.\u202f[1]  \n3.\u202fConfirm the PO is closed and the Virtual Card status is cancelled.\u202f[1]",
+      "uncited_steps": 0,
+      "cited": [
+        "Virtual Card Guide for Accounts Payable > How to cancel Virtual Card issued on PO"
+      ],
+      "retrieved": [
+        "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__002",
+        "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__003",
+        "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__004",
+        "accounts-payable__coupa-virtual-card-guide-for-accounts-payable.md__000",
+        "spending-company-money.md__003"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q18",
+      "type": "in_scope",
+      "own": false,
+      "q": "What is a PID in the hiring plan?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.81443727,
+      "uncited": false,
+      "answer": "A PID (Position ID) is a unique identifier assigned by Corporate FP&A to every position in the Hiring Plan and ties that position to the approved headcount forecast\u202f[1].\u202fIt links approved headcount (count and dollars) to the Hiring Plan, increasing visibility, accuracy, and transparency for forecasting attrition and backfill\u202f[1][3].\u202fEach PID follows the naming convention \u201cFIN\u2011Fiscal\u202fYear\u20110000\u201d (e.g.,\u202fFIN\u2011FY24\u20110000)\u202f[1].\u202fPIDs are created and assigned by Corporate FP&A when the Hiring Plan is finalized or when a change request for an existing position is approved\u202f[3].\u202fAll approved Planned and Backfill positions receive a PID, and each PID has a one\u2011to\u2011one relationship with a GHPID at any given time\u202f[3][5].\u202fPIDs are reconciled monthly before each rolling\u2011forecast lock\u202f[4][5].",
+      "uncited_steps": 0,
+      "cited": [
+        "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Hiring Plan Process > Creating a Position ID (PID)",
+        "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Position ID (PID)",
+        "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Position ID (PID)",
+        "Financial Planning & Analysis > Headcount Forecast and Hiring Plan > Position ID (PID)"
+      ],
+      "retrieved": [
+        "financial-planning-and-analysis___index.md__043",
+        "financial-planning-and-analysis___index.md__042",
+        "financial-planning-and-analysis___index.md__036",
+        "financial-planning-and-analysis___index.md__038",
+        "financial-planning-and-analysis___index.md__037"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q21",
+      "type": "in_scope",
+      "own": true,
+      "q": "If a work trip is business-critical, do I need my manager to approve it before I book?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.69388664,
+      "uncited": false,
+      "answer": "Yes.\u202fIf a trip is business\u2011critical, you must inform your direct manager of the trip plans and receive the manager\u2019s approval before you book\u202f[1].",
+      "uncited_steps": 0,
+      "cited": [
+        "Global Travel and Expense Policy > 2. Responsibilities"
+      ],
+      "retrieved": [
+        "expenses.md__002",
+        "expenses.md__003",
+        "expenses.md__035",
+        "expenses.md__023",
+        "accounting___index.md__050"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    },
+    {
+      "id": "q22",
+      "type": "in_scope",
+      "own": true,
+      "q": "At what point do I need to use Zip instead of Navan for a purchase?",
+      "refused": false,
+      "reason": null,
+      "dense_top": 0.75853115,
+      "uncited": false,
+      "answer": "- If the item is a **software subscription** (e.g., Amazon, Dropbox, Adobe) you must submit a Purchase Request in **Zip** rather than charge the Navan card\u202f[1].  \n- If the **card charge would exceed\u202f$5,000\u202fUSD** for a single transaction, you must enter a **Purchase Requisition in Zip**\u202f[2].  \n- If the purchase is a **gift\u2011card**, the request must be submitted via **Zip** to obtain a virtual card\u202f[4].  \n- For **home\u2011office equipment or software** that is **under\u202f$5\u202fK\u202fUSD** and for individual use, a Zip request is **not required**; you can use the \u201cOther Services\u201d option instead\u202f[3].  \n\nThese are the situations described in the excerpts where Zip must be used instead of Navan.",
+      "uncited_steps": 0,
+      "cited": [
+        "Navan Purchasing Card > 4. Non- Permissible Items > Software subscriptions",
+        "Navan Purchasing Card > 2. General Guidelines",
+        "Tips for Submitting a Zip Request",
+        "Navan Purchasing Card > 4. Non- Permissible Items > Gift Card Purchases"
+      ],
+      "retrieved": [
+        "accounts-payable__corp-credit-cards.md__016",
+        "accounts-payable__corp-credit-cards.md__001",
+        "procurement__tips-for-submitting-a-zip-request.md__000",
+        "accounts-payable__corp-credit-cards.md__009",
+        "procurement__tips-for-submitting-a-zip-request.md__010"
+      ],
+      "used_llm": true,
+      "gold_in_context": true
+    }
+  ]
+}
