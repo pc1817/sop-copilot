@@ -37,8 +37,8 @@ def main() -> None:
     args = ap.parse_args()
 
     load_env()
-    prompt = os.environ.get("PROMPT_VERSION", "v1")
-    mode = os.environ.get("RETRIEVAL_MODE", "dense")
+    prompt = os.environ.get("PROMPT_VERSION", "v2")
+    mode = os.environ.get("RETRIEVAL_MODE", "hybrid")
     own = load("eval/own_questions.json")
     own_ids = {q["id"] for q in own}
     questions = load("eval/questions.json") + own

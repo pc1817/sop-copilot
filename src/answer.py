@@ -45,7 +45,7 @@ SYSTEM_V2 = (
 
 
 def _system_prompt() -> str:
-    return SYSTEM_V2 if os.environ.get("PROMPT_VERSION", "v1") == "v2" else SYSTEM_V1
+    return SYSTEM_V2 if os.environ.get("PROMPT_VERSION", "v2") == "v2" else SYSTEM_V1
 
 
 def _call_groq(question: str, hits: list[dict]) -> str:
@@ -87,7 +87,7 @@ def _call_groq(question: str, hits: list[dict]) -> str:
 def answer_question(index, question: str) -> dict:
     r = retrieve_all(index, question)
     dense_top = r["dense_top"]
-    hits = r[os.environ.get("RETRIEVAL_MODE", "dense")]
+    hits = r[os.environ.get("RETRIEVAL_MODE", "hybrid")]
     base = {"question": question, "dense_top": dense_top,
             "retrieved": [h["id"] for h in hits], "hits": hits}
 
