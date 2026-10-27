@@ -10,6 +10,8 @@ Not affiliated with GitLab. See [Corpus and license](#corpus-and-license).
 
 ![App screenshot](assets/demo.png)
 
+![App screenshot](assets/demo.png)
+
 ## What it does
 
 1. **Hybrid retrieval.** One Pinecone document index holds a dense vector field and a BM25 keyword field. Each question runs both searches and fuses the two rankings with reciprocal rank fusion (RRF).
