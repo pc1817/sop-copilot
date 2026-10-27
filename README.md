@@ -10,7 +10,7 @@ Not affiliated with GitLab. See [Corpus and license](#corpus-and-license).
 
 ![App screenshot](assets/demo.png)
 
-![App screenshot](assets/demo.png)
+![App screenshot](assets/demo2.png)
 
 ## What it does
 
